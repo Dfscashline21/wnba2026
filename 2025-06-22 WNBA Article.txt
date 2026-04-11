@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $11800 (LAV): Our model has A'ja Wilson projected for 48.77 fantasy point with a minutes projection of 34.0. DK value: 4.13
+2. Caitlin Clark $12000 (IND): Our model has Caitlin Clark projected for 44.35 fantasy point with a minutes projection of 32.0. DK value: 3.7
+3. Allisha Gray $10000 (ATL): Our model has Allisha Gray projected for 42.3 fantasy point with a minutes projection of 34.0. DK value: 4.23
+4. Rhyne Howard $10900 (ATL): Our model has Rhyne Howard projected for 42.29 fantasy point with a minutes projection of 35.0. DK value: 3.88
+5. Sabrina Ionescu $11500 (NYL): Our model has Sabrina Ionescu projected for 42.18 fantasy point with a minutes projection of 35.0. DK value: 3.67
+The top 5 DK values are:
+1. Allisha Gray $10000 (ATL): Our model has Allisha Gray projected for 42.3 fantasy point with a minutes projection of 34.0. DK value: 4.23
+2. A'ja Wilson $11800 (LAV): Our model has A'ja Wilson projected for 48.77 fantasy point with a minutes projection of 34.0. DK value: 4.13
+3. Shakira Austin $9600 (WAS): Our model has Shakira Austin projected for 37.69 fantasy point with a minutes projection of 28.0. DK value: 3.93
+4. Rhyne Howard $10900 (ATL): Our model has Rhyne Howard projected for 42.29 fantasy point with a minutes projection of 35.0. DK value: 3.88
+5. Erica Wheeler $8000 (SEA): Our model has Erica Wheeler projected for 30.9 fantasy point with a minutes projection of 30.0. DK value: 3.86

@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12200 (LAV): Our model has A'ja Wilson projected for 59.19 fantasy point with a minutes projection of 34.0. DK value: 4.85
+2. Napheesa Collier $12300 (MIN): Our model has Napheesa Collier projected for 44.93 fantasy point with a minutes projection of 34.0. DK value: 3.65
+3. Satou Sabally $11500 (PHO): Our model has Satou Sabally projected for 43.17 fantasy point with a minutes projection of 30.0. DK value: 3.75
+4. Paige Bueckers $10200 (DAL): Our model has Paige Bueckers projected for 37.2 fantasy point with a minutes projection of 34.0. DK value: 3.65
+5. Skylar Diggins $9400 (SEA): Our model has Skylar Diggins projected for 35.29 fantasy point with a minutes projection of 33.0. DK value: 3.75
+The top 5 DK values are:
+1. A'ja Wilson $12200 (LAV): Our model has A'ja Wilson projected for 59.19 fantasy point with a minutes projection of 34.0. DK value: 4.85
+2. JJ Quinerly $3000 (DAL): Our model has JJ Quinerly projected for 11.58 fantasy point with a minutes projection of 9.0. DK value: 3.86
+3. Alanna Smith $9000 (MIN): Our model has Alanna Smith projected for 34.71 fantasy point with a minutes projection of 32.0. DK value: 3.86
+4. Satou Sabally $11500 (PHO): Our model has Satou Sabally projected for 43.17 fantasy point with a minutes projection of 30.0. DK value: 3.75
+5. Skylar Diggins $9400 (SEA): Our model has Skylar Diggins projected for 35.29 fantasy point with a minutes projection of 33.0. DK value: 3.75

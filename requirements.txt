@@ -1,0 +1,37 @@
+# Core dependencies for WNBA Cloud Function
+pandas>=1.5.0
+numpy>=1.21.0
+requests>=2.32.3
+python-dotenv>=0.19.0
+psycopg2-binary>=2.9.0
+sqlalchemy>=1.4.0
+
+# HTTP client for NBA stats
+httpx>=0.24.0
+
+# Google Sheets integration
+gspread>=5.7.0
+google-auth>=2.17.0
+
+# Date/time handling
+python-dateutil>=2.9.0
+pytz>=2025.2
+
+# Machine learning (for predict_own.py)
+scikit-learn>=1.3.0
+
+# BeautifulSoup for web scraping
+beautifulsoup4>=4.11.0
+
+# DBT dependencies (if running dbt in cloud function)
+dbt-core>=1.9.4
+dbt-postgres>=1.9.0
+
+# YAML processing for DBT profiles
+PyYAML>=6.0.0
+
+# Additional dependencies that might be needed
+certifi>=2025.4.26
+charset-normalizer>=3.4.2
+idna>=3.10
+urllib3>=2.4.0

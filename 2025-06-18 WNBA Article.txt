@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Satou Sabally $16500 (PHO): Our model has Satou Sabally projected for 43.67 fantasy point with a minutes projection of 30.0. DK value: 2.65
+2. Alyssa Thomas $14400 (PHO): Our model has Alyssa Thomas projected for 42.56 fantasy point with a minutes projection of 29.0. DK value: 2.96
+3. Marina Mabrey $13500 (CON): Our model has Marina Mabrey projected for 34.19 fantasy point with a minutes projection of 30.0. DK value: 2.53
+4. Tina Charles $15000 (CON): Our model has Tina Charles projected for 22.69 fantasy point with a minutes projection of 30.0. DK value: 1.51
+5. Monique Akoa Makani $7500 (PHO): Our model has Monique Akoa Makani projected for 20.11 fantasy point with a minutes projection of 22.0. DK value: 2.68
+The top 5 DK values are:
+1. Natasha Mack $5100 (PHO): Our model has Natasha Mack projected for 15.9 fantasy point with a minutes projection of 14.0. DK value: 3.12
+2. Alyssa Thomas $14400 (PHO): Our model has Alyssa Thomas projected for 42.56 fantasy point with a minutes projection of 29.0. DK value: 2.96
+3. Monique Akoa Makani $7500 (PHO): Our model has Monique Akoa Makani projected for 20.11 fantasy point with a minutes projection of 22.0. DK value: 2.68
+4. Satou Sabally $16500 (PHO): Our model has Satou Sabally projected for 43.67 fantasy point with a minutes projection of 30.0. DK value: 2.65
+5. Marina Mabrey $13500 (CON): Our model has Marina Mabrey projected for 34.19 fantasy point with a minutes projection of 30.0. DK value: 2.53

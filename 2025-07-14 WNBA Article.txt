@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Alyssa Thomas $11800 (PHO): Our model has Alyssa Thomas projected for 46.66 fantasy point with a minutes projection of 34.0. DK value: 3.95
+2. Angel Reese $11700 (CHI): Our model has Angel Reese projected for 44.36 fantasy point with a minutes projection of 35.0. DK value: 3.79
+3. Napheesa Collier $11900 (MIN): Our model has Napheesa Collier projected for 44.19 fantasy point with a minutes projection of 33.0. DK value: 3.71
+4. Courtney Williams $10700 (MIN): Our model has Courtney Williams projected for 42.39 fantasy point with a minutes projection of 33.0. DK value: 3.96
+5. Alanna Smith $9500 (MIN): Our model has Alanna Smith projected for 33.12 fantasy point with a minutes projection of 29.0. DK value: 3.49
+The top 5 DK values are:
+1. Courtney Williams $10700 (MIN): Our model has Courtney Williams projected for 42.39 fantasy point with a minutes projection of 33.0. DK value: 3.96
+2. Alyssa Thomas $11800 (PHO): Our model has Alyssa Thomas projected for 46.66 fantasy point with a minutes projection of 34.0. DK value: 3.95
+3. Temi Fagbenle $6800 (GSV): Our model has Temi Fagbenle projected for 26.88 fantasy point with a minutes projection of 27.0. DK value: 3.95
+4. Angel Reese $11700 (CHI): Our model has Angel Reese projected for 44.36 fantasy point with a minutes projection of 35.0. DK value: 3.79
+5. Napheesa Collier $11900 (MIN): Our model has Napheesa Collier projected for 44.19 fantasy point with a minutes projection of 33.0. DK value: 3.71

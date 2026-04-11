@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $11700 (MIN): Our model has Napheesa Collier projected for 46.45 fantasy point with a minutes projection of 32.0. DK value: 3.97
+2. Tina Charles $9800 (CON): Our model has Tina Charles projected for 41.52 fantasy point with a minutes projection of 31.0. DK value: 4.24
+3. Kelsey Plum $10300 (LAS): Our model has Kelsey Plum projected for 35.11 fantasy point with a minutes projection of 38.0. DK value: 3.41
+4. Brittney Sykes $9000 (WAS): Our model has Brittney Sykes projected for 34.4 fantasy point with a minutes projection of 35.0. DK value: 3.82
+5. Dearica Hamby $10500 (LAS): Our model has Dearica Hamby projected for 33.23 fantasy point with a minutes projection of 36.0. DK value: 3.17
+The top 5 DK values are:
+1. Olivia Nelson-Ododa $4800 (CON): Our model has Olivia Nelson-Ododa projected for 28.87 fantasy point with a minutes projection of 30.0. DK value: 6.02
+2. Sug Sutton $5000 (WAS): Our model has Sug Sutton projected for 21.56 fantasy point with a minutes projection of 28.0. DK value: 4.31
+3. Tina Charles $9800 (CON): Our model has Tina Charles projected for 41.52 fantasy point with a minutes projection of 31.0. DK value: 4.24
+4. Napheesa Collier $11700 (MIN): Our model has Napheesa Collier projected for 46.45 fantasy point with a minutes projection of 32.0. DK value: 3.97
+5. Brittney Sykes $9000 (WAS): Our model has Brittney Sykes projected for 34.4 fantasy point with a minutes projection of 35.0. DK value: 3.82

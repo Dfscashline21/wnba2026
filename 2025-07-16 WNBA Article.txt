@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $11800 (LAV): Our model has A'ja Wilson projected for 49.46 fantasy point with a minutes projection of 32.0. DK value: 4.19
+2. Alyssa Thomas $11900 (PHO): Our model has Alyssa Thomas projected for 46.41 fantasy point with a minutes projection of 34.0. DK value: 3.9
+3. Courtney Williams $11100 (MIN): Our model has Courtney Williams projected for 40.53 fantasy point with a minutes projection of 33.0. DK value: 3.65
+4. Napheesa Collier $12000 (MIN): Our model has Napheesa Collier projected for 39.38 fantasy point with a minutes projection of 33.0. DK value: 3.28
+5. Jordin Canada $9400 (ATL): Our model has Jordin Canada projected for 39.12 fantasy point with a minutes projection of 34.0. DK value: 4.16
+The top 5 DK values are:
+1. Megan Gustafson $3800 (LAV): Our model has Megan Gustafson projected for 18.66 fantasy point with a minutes projection of 20.0. DK value: 4.91
+2. Michaela Onyenwere $5300 (CHI): Our model has Michaela Onyenwere projected for 22.94 fantasy point with a minutes projection of 28.0. DK value: 4.33
+3. A'ja Wilson $11800 (LAV): Our model has A'ja Wilson projected for 49.46 fantasy point with a minutes projection of 32.0. DK value: 4.19
+4. Maya Caldwell $6100 (ATL): Our model has Maya Caldwell projected for 25.56 fantasy point with a minutes projection of 29.0. DK value: 4.19
+5. Jordin Canada $9400 (ATL): Our model has Jordin Canada projected for 39.12 fantasy point with a minutes projection of 34.0. DK value: 4.16

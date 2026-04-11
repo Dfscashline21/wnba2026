@@ -1,0 +1,41 @@
+{
+  "migration_date": "2025-09-02T15:30:16.299210",
+  "statistics": {
+    "tables_migrated": 0,
+    "files_migrated": 0,
+    "errors": [
+      "Database migration failed: Not an executable object: \"\\n                    SELECT table_name \\n                    FROM information_schema.tables \\n                    WHERE table_schema = 'public' \\n                    ORDER BY table_name;\\n                \""
+    ],
+    "warnings": []
+  },
+  "validation": {
+    "database_tables": {
+      "PLAYER_GAME_LOGS": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "injuries": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "TEAMS": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "PLAYERS": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "Games": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      }
+    },
+    "overall_success": false
+  },
+  "recommendations": [
+    "Review and fix migration errors before proceeding",
+    "Migration validation failed - review before proceeding"
+  ],
+  "migration_method": "REST API"
+}

@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 49.89 fantasy point with a minutes projection of 30.0. DK value: 4.16
+2. Dearica Hamby $11200 (LAS): Our model has Dearica Hamby projected for 40.53 fantasy point with a minutes projection of 31.0. DK value: 3.62
+3. Shakira Austin $10000 (WAS): Our model has Shakira Austin projected for 37.85 fantasy point with a minutes projection of 27.0. DK value: 3.79
+4. Kelsey Plum $10700 (LAS): Our model has Kelsey Plum projected for 36.11 fantasy point with a minutes projection of 32.0. DK value: 3.38
+5. Angel Reese $11100 (CHI): Our model has Angel Reese projected for 35.68 fantasy point with a minutes projection of 26.0. DK value: 3.21
+The top 5 DK values are:
+1. Kierstan Bell $4200 (LAV): Our model has Kierstan Bell projected for 20.42 fantasy point with a minutes projection of 20.0. DK value: 4.86
+2. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 49.89 fantasy point with a minutes projection of 30.0. DK value: 4.16
+3. Shakira Austin $10000 (WAS): Our model has Shakira Austin projected for 37.85 fantasy point with a minutes projection of 27.0. DK value: 3.79
+4. Dearica Hamby $11200 (LAS): Our model has Dearica Hamby projected for 40.53 fantasy point with a minutes projection of 31.0. DK value: 3.62
+5. Emily Engstler $3400 (WAS): Our model has Emily Engstler projected for 12.09 fantasy point with a minutes projection of 15.0. DK value: 3.56

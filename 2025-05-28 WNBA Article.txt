@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Aliyah Boston $14700 (IND): Our model has Aliyah Boston projected for 34.57 fantasy point with a minutes projection of 33.0. DK value: 2.35
+2. Kiki Iriafen $12000 (WAS): Our model has Kiki Iriafen projected for 31.63 fantasy point with a minutes projection of 26.0. DK value: 2.64
+3. Brittney Sykes $14100 (WAS): Our model has Brittney Sykes projected for 29.18 fantasy point with a minutes projection of 28.0. DK value: 2.07
+4. Natasha Howard $13200 (IND): Our model has Natasha Howard projected for 28.71 fantasy point with a minutes projection of 29.0. DK value: 2.17
+5. Sonia Citron $11400 (WAS): Our model has Sonia Citron projected for 27.71 fantasy point with a minutes projection of 31.0. DK value: 2.43
+The top 5 DK values are:
+1. Kiki Iriafen $12000 (WAS): Our model has Kiki Iriafen projected for 31.63 fantasy point with a minutes projection of 26.0. DK value: 2.64
+2. Sonia Citron $11400 (WAS): Our model has Sonia Citron projected for 27.71 fantasy point with a minutes projection of 31.0. DK value: 2.43
+3. Aliyah Boston $14700 (IND): Our model has Aliyah Boston projected for 34.57 fantasy point with a minutes projection of 33.0. DK value: 2.35
+4. Lexie Hull $8700 (IND): Our model has Lexie Hull projected for 20.36 fantasy point with a minutes projection of 30.0. DK value: 2.34
+5. Jade Melbourne $9000 (WAS): Our model has Jade Melbourne projected for 20.02 fantasy point with a minutes projection of 25.0. DK value: 2.22

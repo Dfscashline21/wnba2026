@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $11400 (LAV): Our model has A'ja Wilson projected for 50.52 fantasy point with a minutes projection of 34.0. DK value: 4.43
+2. Aliyah Boston $10600 (IND): Our model has Aliyah Boston projected for 42.28 fantasy point with a minutes projection of 32.0. DK value: 3.99
+3. Shakira Austin $9600 (WAS): Our model has Shakira Austin projected for 38.28 fantasy point with a minutes projection of 30.0. DK value: 3.99
+4. Dearica Hamby $10000 (LAS): Our model has Dearica Hamby projected for 36.65 fantasy point with a minutes projection of 32.0. DK value: 3.66
+5. Kelsey Plum $9900 (LAS): Our model has Kelsey Plum projected for 32.33 fantasy point with a minutes projection of 35.0. DK value: 3.27
+The top 5 DK values are:
+1. A'ja Wilson $11400 (LAV): Our model has A'ja Wilson projected for 50.52 fantasy point with a minutes projection of 34.0. DK value: 4.43
+2. Natasha Howard $6700 (IND): Our model has Natasha Howard projected for 27.54 fantasy point with a minutes projection of 26.0. DK value: 4.11
+3. Kiki Iriafen $8000 (WAS): Our model has Kiki Iriafen projected for 32.02 fantasy point with a minutes projection of 28.0. DK value: 4.0
+4. Aliyah Boston $10600 (IND): Our model has Aliyah Boston projected for 42.28 fantasy point with a minutes projection of 32.0. DK value: 3.99
+5. Shakira Austin $9600 (WAS): Our model has Shakira Austin projected for 38.28 fantasy point with a minutes projection of 30.0. DK value: 3.99

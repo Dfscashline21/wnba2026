@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Breanna Stewart $12000 (NYL): Our model has Breanna Stewart projected for 45.7 fantasy point with a minutes projection of 32.0. DK value: 3.81
+2. Jonquel Jones $9700 (NYL): Our model has Jonquel Jones projected for 41.75 fantasy point with a minutes projection of 30.0. DK value: 4.3
+3. Natasha Cloud $9000 (NYL): Our model has Natasha Cloud projected for 40.2 fantasy point with a minutes projection of 32.0. DK value: 4.47
+4. Angel Reese $10800 (CHI): Our model has Angel Reese projected for 40.05 fantasy point with a minutes projection of 33.0. DK value: 3.71
+5. Sabrina Ionescu $9500 (NYL): Our model has Sabrina Ionescu projected for 38.4 fantasy point with a minutes projection of 32.0. DK value: 4.04
+The top 5 DK values are:
+1. Kennedy Burke $4200 (NYL): Our model has Kennedy Burke projected for 19.87 fantasy point with a minutes projection of 22.0. DK value: 4.73
+2. Ariel Atkins $7600 (CHI): Our model has Ariel Atkins projected for 34.42 fantasy point with a minutes projection of 29.0. DK value: 4.53
+3. Kia Nurse $4700 (CHI): Our model has Kia Nurse projected for 21.13 fantasy point with a minutes projection of 26.0. DK value: 4.5
+4. Natasha Cloud $9000 (NYL): Our model has Natasha Cloud projected for 40.2 fantasy point with a minutes projection of 32.0. DK value: 4.47
+5. Jonquel Jones $9700 (NYL): Our model has Jonquel Jones projected for 41.75 fantasy point with a minutes projection of 30.0. DK value: 4.3

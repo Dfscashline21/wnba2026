@@ -1,0 +1,17 @@
+# Temporary dbt profiles for Supabase testing
+wnba_dbt:
+  target: supabase_test
+  outputs:
+    supabase_test:
+      type: postgres
+      host: "{{ env_var('SUPABASE_HOST') }}"
+      user: "{{ env_var('SUPABASE_USER') }}"
+      password: "{{ env_var('SUPABASE_PASSWORD') }}"
+      port: "{{ env_var('SUPABASE_PORT', 5432) }}"
+      dbname: "{{ env_var('SUPABASE_DBNAME') }}"
+      schema: "{{ env_var('SUPABASE_SCHEMA', 'public') }}"
+      threads: 4
+      keepalives_idle: 0
+      connect_timeout: 10
+      retries: 3
+      sslmode: require

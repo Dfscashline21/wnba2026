@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $13000 (LAV): Our model has A'ja Wilson projected for 59.99 fantasy point with a minutes projection of 34.0. DK value: 4.61
+2. Alyssa Thomas $12800 (PHO): Our model has Alyssa Thomas projected for 50.05 fantasy point with a minutes projection of 34.0. DK value: 3.91
+3. Jackie Young $11100 (LAV): Our model has Jackie Young projected for 42.88 fantasy point with a minutes projection of 33.0. DK value: 3.86
+4. Nneka Ogwumike $11300 (SEA): Our model has Nneka Ogwumike projected for 40.31 fantasy point with a minutes projection of 34.77. DK value: 3.57
+5. Paige Bueckers $11400 (DAL): Our model has Paige Bueckers projected for 38.48 fantasy point with a minutes projection of 34.0. DK value: 3.38
+The top 5 DK values are:
+1. Maddy Siegrist $6200 (DAL): Our model has Maddy Siegrist projected for 37.08 fantasy point with a minutes projection of 34.0. DK value: 5.98
+2. A'ja Wilson $13000 (LAV): Our model has A'ja Wilson projected for 59.99 fantasy point with a minutes projection of 34.0. DK value: 4.61
+3. Leila Lacan $6500 (CON): Our model has Leila Lacan projected for 28.97 fantasy point with a minutes projection of 32.0. DK value: 4.46
+4. Sug Sutton $5900 (WAS): Our model has Sug Sutton projected for 25.54 fantasy point with a minutes projection of 32.0. DK value: 4.33
+5. NaLyssa Smith $6900 (LAV): Our model has NaLyssa Smith projected for 29.78 fantasy point with a minutes projection of 26.0. DK value: 4.32

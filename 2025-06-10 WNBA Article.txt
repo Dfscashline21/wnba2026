@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Breanna Stewart $11200 (NYL): Our model has Breanna Stewart projected for 43.84 fantasy point with a minutes projection of 31.0. DK value: 3.91
+2. Sabrina Ionescu $10000 (NYL): Our model has Sabrina Ionescu projected for 40.77 fantasy point with a minutes projection of 31.0. DK value: 4.08
+3. Natasha Cloud $8300 (NYL): Our model has Natasha Cloud projected for 36.2 fantasy point with a minutes projection of 30.0. DK value: 4.36
+4. Allisha Gray $9900 (ATL): Our model has Allisha Gray projected for 34.8 fantasy point with a minutes projection of 35.0. DK value: 3.52
+5. Angel Reese $10400 (CHI): Our model has Angel Reese projected for 33.8 fantasy point with a minutes projection of 30.0. DK value: 3.25
+The top 5 DK values are:
+1. Aari McDonald $4300 (IND): Our model has Aari McDonald projected for 23.67 fantasy point with a minutes projection of 27.0. DK value: 5.51
+2. Hailey Van Lith $3100 (CHI): Our model has Hailey Van Lith projected for 13.98 fantasy point with a minutes projection of 20.0. DK value: 4.51
+3. Natasha Cloud $8300 (NYL): Our model has Natasha Cloud projected for 36.2 fantasy point with a minutes projection of 30.0. DK value: 4.36
+4. Sabrina Ionescu $10000 (NYL): Our model has Sabrina Ionescu projected for 40.77 fantasy point with a minutes projection of 31.0. DK value: 4.08
+5. Breanna Stewart $11200 (NYL): Our model has Breanna Stewart projected for 43.84 fantasy point with a minutes projection of 31.0. DK value: 3.91

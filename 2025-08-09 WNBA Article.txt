@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Aliyah Boston $11100 (IND): Our model has Aliyah Boston projected for 47.05 fantasy point with a minutes projection of 31.0. DK value: 4.24
+2. Natasha Howard $9000 (IND): Our model has Natasha Howard projected for 42.86 fantasy point with a minutes projection of 30.0. DK value: 4.76
+3. Kelsey Plum $11800 (LAS): Our model has Kelsey Plum projected for 38.27 fantasy point with a minutes projection of 35.0. DK value: 3.24
+4. Kelsey Mitchell $10300 (IND): Our model has Kelsey Mitchell projected for 33.67 fantasy point with a minutes projection of 33.0. DK value: 3.27
+5. Kamilla Cardoso $10000 (CHI): Our model has Kamilla Cardoso projected for 32.25 fantasy point with a minutes projection of 31.0. DK value: 3.23
+The top 5 DK values are:
+1. Makayla Timpson $3300 (IND): Our model has Makayla Timpson projected for 27.3 fantasy point with a minutes projection of 18.0. DK value: 8.27
+2. Natasha Howard $9000 (IND): Our model has Natasha Howard projected for 42.86 fantasy point with a minutes projection of 30.0. DK value: 4.76
+3. Lexie Hull $4400 (IND): Our model has Lexie Hull projected for 20.44 fantasy point with a minutes projection of 29.0. DK value: 4.65
+4. Kaila Charles $3800 (GSV): Our model has Kaila Charles projected for 16.3 fantasy point with a minutes projection of 15.0. DK value: 4.29
+5. Cameron Brink $5000 (LAS): Our model has Cameron Brink projected for 21.34 fantasy point with a minutes projection of 17.0. DK value: 4.27

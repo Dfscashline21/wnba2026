@@ -1,0 +1,69 @@
+version: 2
+
+models:
+  - name: minutes_projection
+    description: "Minutes projection model using clean_logs and injuries data with exact 200 minutes per team"
+    tests:
+      - unique:
+          column_name: "player_name || '_' || team_abbreviation"
+      - assert_team_minutes_capped
+    columns:
+      - name: player_name
+        description: "Player's full name"
+        tests:
+          - not_null
+      - name: team_abbreviation
+        description: "Team abbreviation"
+        tests:
+          - not_null
+      - name: player_id
+        description: "Unique player identifier"
+        tests:
+          - not_null
+      - name: minutes_projection
+        description: "Final projected minutes for today's game (capped at 40 minutes, team total exactly 200)"
+        tests:
+          - not_null
+          - assert_minutes_projection_reasonable
+      - name: confidence_score
+        description: "Confidence score for the projection (0-1)"
+        tests:
+          - not_null
+      - name: base_minutes_projection
+        description: "Base minutes projection before adjustments"
+      - name: injury_adjusted_minutes
+        description: "Minutes projection after injury adjustments"
+      - name: sanity_check_adjusted_minutes
+        description: "Minutes projection after applying sanity check rules"
+      - name: games_played_last_10
+        description: "Number of games played in last 10 appearances"
+      - name: minutes_volatility
+        description: "Standard deviation of minutes in recent games"
+      - name: season_games_played
+        description: "Total games played this season"
+      - name: injured_players_count
+        description: "Number of injured players on the team"
+      - name: team_total_before_scaling
+        description: "Total team minutes before scaling to 200"
+      - name: team_total_after_scaling
+        description: "Total team minutes after scaling to 200"
+      - name: projection_timestamp
+        description: "When the projection was calculated"
+      - name: projection_date
+        description: "Date for which the projection is made"
+
+  - name: minutes_projection_staged
+    description: "Staged version of minutes projection model"
+    columns:
+      - name: player_name
+        description: "Player's full name"
+        tests:
+          - not_null
+      - name: team_abbreviation
+        description: "Team abbreviation"
+        tests:
+          - not_null
+      - name: minutes_projection
+        description: "Final projected minutes for today's game"
+        tests:
+          - not_null

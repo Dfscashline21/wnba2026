@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $12000 (MIN): Our model has Napheesa Collier projected for 48.91 fantasy point with a minutes projection of 30.0. DK value: 4.08
+2. Angel Reese $11200 (CHI): Our model has Angel Reese projected for 45.35 fantasy point with a minutes projection of 33.0. DK value: 4.05
+3. A'ja Wilson $11900 (LAV): Our model has A'ja Wilson projected for 44.96 fantasy point with a minutes projection of 32.0. DK value: 3.78
+4. Satou Sabally $10200 (PHO): Our model has Satou Sabally projected for 44.51 fantasy point with a minutes projection of 30.0. DK value: 4.36
+5. Alyssa Thomas $11600 (PHO): Our model has Alyssa Thomas projected for 43.67 fantasy point with a minutes projection of 30.0. DK value: 3.76
+The top 5 DK values are:
+1. Satou Sabally $10200 (PHO): Our model has Satou Sabally projected for 44.51 fantasy point with a minutes projection of 30.0. DK value: 4.36
+2. Napheesa Collier $12000 (MIN): Our model has Napheesa Collier projected for 48.91 fantasy point with a minutes projection of 30.0. DK value: 4.08
+3. Angel Reese $11200 (CHI): Our model has Angel Reese projected for 45.35 fantasy point with a minutes projection of 33.0. DK value: 4.05
+4. Sabrina Ionescu $9800 (NYL): Our model has Sabrina Ionescu projected for 39.5 fantasy point with a minutes projection of 35.0. DK value: 4.03
+5. Azurá Stevens $10000 (LAS): Our model has Azurá Stevens projected for 39.55 fantasy point with a minutes projection of 32.0. DK value: 3.95

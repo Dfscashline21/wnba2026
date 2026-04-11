@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Caitlin Clark $12200 (IND): Our model has Caitlin Clark projected for 45.54 fantasy point with a minutes projection of 35.0. DK value: 3.73
+2. Angel Reese $11200 (CHI): Our model has Angel Reese projected for 42.43 fantasy point with a minutes projection of 33.0. DK value: 3.79
+3. Kelsey Plum $10200 (LAS): Our model has Kelsey Plum projected for 41.45 fantasy point with a minutes projection of 36.0. DK value: 4.06
+4. Dearica Hamby $10400 (LAS): Our model has Dearica Hamby projected for 40.72 fantasy point with a minutes projection of 33.0. DK value: 3.92
+5. Rhyne Howard $11000 (ATL): Our model has Rhyne Howard projected for 40.56 fantasy point with a minutes projection of 36.0. DK value: 3.69
+The top 5 DK values are:
+1. Te-Hina Paopao $5100 (ATL): Our model has Te-Hina Paopao projected for 21.52 fantasy point with a minutes projection of 18.0. DK value: 4.22
+2. Kiki Iriafen $7800 (WAS): Our model has Kiki Iriafen projected for 32.91 fantasy point with a minutes projection of 34.0. DK value: 4.22
+3. Gabby Williams $9400 (SEA): Our model has Gabby Williams projected for 39.02 fantasy point with a minutes projection of 36.0. DK value: 4.15
+4. Kelsey Plum $10200 (LAS): Our model has Kelsey Plum projected for 41.45 fantasy point with a minutes projection of 36.0. DK value: 4.06
+5. Allisha Gray $10000 (ATL): Our model has Allisha Gray projected for 39.73 fantasy point with a minutes projection of 36.0. DK value: 3.97

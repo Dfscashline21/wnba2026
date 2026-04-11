@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12100 (LAV): Our model has A'ja Wilson projected for 50.22 fantasy point with a minutes projection of 34.0. DK value: 4.15
+2. Sabrina Ionescu $11800 (NYL): Our model has Sabrina Ionescu projected for 47.03 fantasy point with a minutes projection of 33.0. DK value: 3.99
+3. Alyssa Thomas $12400 (PHO): Our model has Alyssa Thomas projected for 42.94 fantasy point with a minutes projection of 28.0. DK value: 3.46
+4. Jonquel Jones $11100 (NYL): Our model has Jonquel Jones projected for 41.26 fantasy point with a minutes projection of 30.0. DK value: 3.72
+5. Kahleah Copper $8200 (PHO): Our model has Kahleah Copper projected for 35.79 fantasy point with a minutes projection of 33.0. DK value: 4.36
+The top 5 DK values are:
+1. Kahleah Copper $8200 (PHO): Our model has Kahleah Copper projected for 35.79 fantasy point with a minutes projection of 33.0. DK value: 4.36
+2. A'ja Wilson $12100 (LAV): Our model has A'ja Wilson projected for 50.22 fantasy point with a minutes projection of 34.0. DK value: 4.15
+3. Sabrina Ionescu $11800 (NYL): Our model has Sabrina Ionescu projected for 47.03 fantasy point with a minutes projection of 33.0. DK value: 3.99
+4. Rebecca Allen $6700 (CHI): Our model has Rebecca Allen projected for 26.67 fantasy point with a minutes projection of 31.0. DK value: 3.98
+5. Satou Sabally $8700 (PHO): Our model has Satou Sabally projected for 32.59 fantasy point with a minutes projection of 30.0. DK value: 3.75

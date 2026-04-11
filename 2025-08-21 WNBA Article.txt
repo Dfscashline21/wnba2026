@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $13500 (LAV): Our model has A'ja Wilson projected for 56.8 fantasy point with a minutes projection of 35.0. DK value: 4.21
+2. Alyssa Thomas $12800 (PHO): Our model has Alyssa Thomas projected for 51.85 fantasy point with a minutes projection of 36.0. DK value: 4.05
+3. Kiki Iriafen $9200 (WAS): Our model has Kiki Iriafen projected for 39.51 fantasy point with a minutes projection of 32.0. DK value: 4.29
+4. Sabrina Ionescu $11900 (NYL): Our model has Sabrina Ionescu projected for 39.32 fantasy point with a minutes projection of 32.0. DK value: 3.3
+5. Jackie Young $10400 (LAV): Our model has Jackie Young projected for 38.95 fantasy point with a minutes projection of 35.0. DK value: 3.74
+The top 5 DK values are:
+1. Ariel Atkins $7100 (CHI): Our model has Ariel Atkins projected for 32.88 fantasy point with a minutes projection of 32.0. DK value: 4.63
+2. Kiki Iriafen $9200 (WAS): Our model has Kiki Iriafen projected for 39.51 fantasy point with a minutes projection of 32.0. DK value: 4.29
+3. A'ja Wilson $13500 (LAV): Our model has A'ja Wilson projected for 56.8 fantasy point with a minutes projection of 35.0. DK value: 4.21
+4. Alyssa Thomas $12800 (PHO): Our model has Alyssa Thomas projected for 51.85 fantasy point with a minutes projection of 36.0. DK value: 4.05
+5. Leila Lacan $8400 (CON): Our model has Leila Lacan projected for 33.37 fantasy point with a minutes projection of 35.0. DK value: 3.97

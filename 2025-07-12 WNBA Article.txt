@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $11800 (MIN): Our model has Napheesa Collier projected for 42.53 fantasy point with a minutes projection of 33.0. DK value: 3.6
+2. Angel Reese $12000 (CHI): Our model has Angel Reese projected for 42.43 fantasy point with a minutes projection of 33.0. DK value: 3.54
+3. Courtney Williams $10500 (MIN): Our model has Courtney Williams projected for 41.05 fantasy point with a minutes projection of 31.0. DK value: 3.91
+4. Kayla Thornton $9600 (GSV): Our model has Kayla Thornton projected for 31.22 fantasy point with a minutes projection of 29.0. DK value: 3.25
+5. A'ja Wilson $11700 (LAV): Our model has A'ja Wilson projected for 30.9 fantasy point with a minutes projection of 25.0. DK value: 2.64
+The top 5 DK values are:
+1. Megan Gustafson $3000 (LAV): Our model has Megan Gustafson projected for 12.96 fantasy point with a minutes projection of 15.0. DK value: 4.32
+2. Courtney Williams $10500 (MIN): Our model has Courtney Williams projected for 41.05 fantasy point with a minutes projection of 31.0. DK value: 3.91
+3. Napheesa Collier $11800 (MIN): Our model has Napheesa Collier projected for 42.53 fantasy point with a minutes projection of 33.0. DK value: 3.6
+4. Janelle Salaun $5600 (GSV): Our model has Janelle Salaun projected for 19.9 fantasy point with a minutes projection of 25.0. DK value: 3.55
+5. Angel Reese $12000 (CHI): Our model has Angel Reese projected for 42.43 fantasy point with a minutes projection of 33.0. DK value: 3.54

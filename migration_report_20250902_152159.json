@@ -1,0 +1,54 @@
+{
+  "migration_date": "2025-09-02T15:21:58.767109",
+  "statistics": {
+    "tables_migrated": 0,
+    "files_migrated": 0,
+    "errors": [
+      "Error migrating PLAYER_GAME_LOGS: (psycopg2.errors.UndefinedTable) relation \"wnba.player_game_logs\" does not exist\nLINE 1: SELECT * FROM wnba.PLAYER_GAME_LOGS\n                      ^\n\n[SQL: SELECT * FROM wnba.PLAYER_GAME_LOGS]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+      "Failed to upload injuries",
+      "Error migrating TEAMS: (psycopg2.errors.UndefinedTable) relation \"wnba.teams\" does not exist\nLINE 1: SELECT * FROM wnba.TEAMS\n                      ^\n\n[SQL: SELECT * FROM wnba.TEAMS]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+      "Error migrating PLAYERS: (psycopg2.errors.UndefinedTable) relation \"wnba.players\" does not exist\nLINE 1: SELECT * FROM wnba.PLAYERS\n                      ^\n\n[SQL: SELECT * FROM wnba.PLAYERS]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+      "Error migrating Games: (psycopg2.errors.UndefinedTable) relation \"wnba.games\" does not exist\nLINE 1: SELECT * FROM wnba.Games\n                      ^\n\n[SQL: SELECT * FROM wnba.Games]\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+      "Failed to upload wowy",
+      "Failed to upload pace",
+      "Failed to upload underdog",
+      "Failed to upload draftkings",
+      "Failed to upload prizepicks",
+      "Failed to upload betmgm",
+      "Failed to upload caesars",
+      "Failed to upload projmins",
+      "Failed to upload todaysmins"
+    ],
+    "warnings": []
+  },
+  "validation": {
+    "database_tables": {
+      "PLAYER_GAME_LOGS": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "injuries": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "TEAMS": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "PLAYERS": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      },
+      "Games": {
+        "status": "failed",
+        "error": "No data found or table does not exist"
+      }
+    },
+    "overall_success": false
+  },
+  "recommendations": [
+    "Review and fix migration errors before proceeding",
+    "Migration validation failed - review before proceeding"
+  ],
+  "migration_method": "REST API"
+}

@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $12500 (MIN): Our model has Napheesa Collier projected for 48.45 fantasy point with a minutes projection of 31.0. DK value: 3.88
+2. Paige Bueckers $10500 (DAL): Our model has Paige Bueckers projected for 41.5 fantasy point with a minutes projection of 33.0. DK value: 3.95
+3. Courtney Williams $10000 (MIN): Our model has Courtney Williams projected for 40.45 fantasy point with a minutes projection of 32.0. DK value: 4.04
+4. Skylar Diggins $9200 (SEA): Our model has Skylar Diggins projected for 36.81 fantasy point with a minutes projection of 31.0. DK value: 4.0
+5. Nneka Ogwumike $9600 (SEA): Our model has Nneka Ogwumike projected for 36.61 fantasy point with a minutes projection of 31.0. DK value: 3.81
+The top 5 DK values are:
+1. Natisha Hiedeman $4400 (MIN): Our model has Natisha Hiedeman projected for 23.55 fantasy point with a minutes projection of 24.0. DK value: 5.35
+2. Diamond Miller $4000 (DAL): Our model has Diamond Miller projected for 19.06 fantasy point with a minutes projection of 23.0. DK value: 4.76
+3. DiJonai Carrington $5900 (MIN): Our model has DiJonai Carrington projected for 27.76 fantasy point with a minutes projection of 24.0. DK value: 4.71
+4. Myisha Hines-Allen $7600 (DAL): Our model has Myisha Hines-Allen projected for 34.81 fantasy point with a minutes projection of 30.0. DK value: 4.58
+5. Erica Wheeler $4300 (SEA): Our model has Erica Wheeler projected for 19.12 fantasy point with a minutes projection of 22.0. DK value: 4.45

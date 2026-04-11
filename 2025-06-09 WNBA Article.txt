@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Dearica Hamby $14700 (LAS): Our model has Dearica Hamby projected for 36.04 fantasy point with a minutes projection of 30.0. DK value: 2.45
+2. Kelsey Plum $14400 (LAS): Our model has Kelsey Plum projected for 35.25 fantasy point with a minutes projection of 32.0. DK value: 2.45
+3. Veronica Burton $12300 (GSV): Our model has Veronica Burton projected for 31.85 fantasy point with a minutes projection of 32.0. DK value: 2.59
+4. Kayla Thornton $10800 (GSV): Our model has Kayla Thornton projected for 31.63 fantasy point with a minutes projection of 32.0. DK value: 2.93
+5. Azurá Stevens $13800 (LAS): Our model has Azurá Stevens projected for 28.54 fantasy point with a minutes projection of 27.0. DK value: 2.07
+The top 5 DK values are:
+1. Kate Martin $6600 (GSV): Our model has Kate Martin projected for 19.82 fantasy point with a minutes projection of 26.0. DK value: 3.0
+2. Kayla Thornton $10800 (GSV): Our model has Kayla Thornton projected for 31.63 fantasy point with a minutes projection of 32.0. DK value: 2.93
+3. Veronica Burton $12300 (GSV): Our model has Veronica Burton projected for 31.85 fantasy point with a minutes projection of 32.0. DK value: 2.59
+4. Dearica Hamby $14700 (LAS): Our model has Dearica Hamby projected for 36.04 fantasy point with a minutes projection of 30.0. DK value: 2.45
+5. Kelsey Plum $14400 (LAS): Our model has Kelsey Plum projected for 35.25 fantasy point with a minutes projection of 32.0. DK value: 2.45

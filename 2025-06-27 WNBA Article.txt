@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Sabrina Ionescu $10900 (NYL): Our model has Sabrina Ionescu projected for 45.16 fantasy point with a minutes projection of 33.0. DK value: 4.14
+2. Nneka Ogwumike $10600 (SEA): Our model has Nneka Ogwumike projected for 43.78 fantasy point with a minutes projection of 34.0. DK value: 4.13
+3. Satou Sabally $10400 (PHO): Our model has Satou Sabally projected for 43.44 fantasy point with a minutes projection of 29.0. DK value: 4.18
+4. Alyssa Thomas $11000 (PHO): Our model has Alyssa Thomas projected for 42.98 fantasy point with a minutes projection of 29.0. DK value: 3.91
+5. Breanna Stewart $11600 (NYL): Our model has Breanna Stewart projected for 42.59 fantasy point with a minutes projection of 37.0. DK value: 3.67
+The top 5 DK values are:
+1. Aari McDonald $4100 (IND): Our model has Aari McDonald projected for 21.44 fantasy point with a minutes projection of 24.0. DK value: 5.23
+2. Kate Martin $4800 (GSV): Our model has Kate Martin projected for 22.93 fantasy point with a minutes projection of 24.0. DK value: 4.78
+3. Tiffany Hayes $8000 (GSV): Our model has Tiffany Hayes projected for 37.64 fantasy point with a minutes projection of 34.0. DK value: 4.7
+4. Kennedy Burke $6200 (NYL): Our model has Kennedy Burke projected for 27.52 fantasy point with a minutes projection of 30.0. DK value: 4.44
+5. Gabby Williams $9500 (SEA): Our model has Gabby Williams projected for 41.01 fantasy point with a minutes projection of 35.0. DK value: 4.32

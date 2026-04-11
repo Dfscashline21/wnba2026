@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Kelsey Mitchell $10600 (IND): Our model has Kelsey Mitchell projected for 40.71 fantasy point with a minutes projection of 33.0. DK value: 3.84
+2. Dearica Hamby $9700 (LAS): Our model has Dearica Hamby projected for 39.91 fantasy point with a minutes projection of 30.0. DK value: 4.11
+3. Aliyah Boston $11400 (IND): Our model has Aliyah Boston projected for 37.72 fantasy point with a minutes projection of 30.0. DK value: 3.31
+4. Rhyne Howard $10800 (ATL): Our model has Rhyne Howard projected for 37.53 fantasy point with a minutes projection of 36.0. DK value: 3.47
+5. Brionna Jones $8600 (ATL): Our model has Brionna Jones projected for 34.68 fantasy point with a minutes projection of 27.0. DK value: 4.03
+The top 5 DK values are:
+1. Myisha Hines-Allen $6600 (DAL): Our model has Myisha Hines-Allen projected for 28.33 fantasy point with a minutes projection of 29.0. DK value: 4.29
+2. Dearica Hamby $9700 (LAS): Our model has Dearica Hamby projected for 39.91 fantasy point with a minutes projection of 30.0. DK value: 4.11
+3. Brionna Jones $8600 (ATL): Our model has Brionna Jones projected for 34.68 fantasy point with a minutes projection of 27.0. DK value: 4.03
+4. Diamond Miller $3700 (DAL): Our model has Diamond Miller projected for 14.23 fantasy point with a minutes projection of 24.0. DK value: 3.84
+5. Kelsey Mitchell $10600 (IND): Our model has Kelsey Mitchell projected for 40.71 fantasy point with a minutes projection of 33.0. DK value: 3.84

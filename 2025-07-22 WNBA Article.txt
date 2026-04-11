@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 47.48 fantasy point with a minutes projection of 33.0. DK value: 3.96
+2. Angel Reese $11500 (CHI): Our model has Angel Reese projected for 43.72 fantasy point with a minutes projection of 34.0. DK value: 3.8
+3. Courtney Williams $10800 (MIN): Our model has Courtney Williams projected for 42.98 fantasy point with a minutes projection of 33.0. DK value: 3.98
+4. Napheesa Collier $12300 (MIN): Our model has Napheesa Collier projected for 42.53 fantasy point with a minutes projection of 33.0. DK value: 3.46
+5. Shakira Austin $9700 (WAS): Our model has Shakira Austin projected for 39.25 fantasy point with a minutes projection of 26.0. DK value: 4.05
+The top 5 DK values are:
+1. Shakira Austin $9700 (WAS): Our model has Shakira Austin projected for 39.25 fantasy point with a minutes projection of 26.0. DK value: 4.05
+2. Courtney Williams $10800 (MIN): Our model has Courtney Williams projected for 42.98 fantasy point with a minutes projection of 33.0. DK value: 3.98
+3. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 47.48 fantasy point with a minutes projection of 33.0. DK value: 3.96
+4. Angel Reese $11500 (CHI): Our model has Angel Reese projected for 43.72 fantasy point with a minutes projection of 34.0. DK value: 3.8
+5. Aliyah Boston $10000 (IND): Our model has Aliyah Boston projected for 37.97 fantasy point with a minutes projection of 30.0. DK value: 3.8

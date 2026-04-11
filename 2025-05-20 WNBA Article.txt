@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Caitlin Clark $11200 (IND): Our model has Caitlin Clark projected for 55.38 fantasy point with a minutes projection of 35.0. DK value: 4.94
+2. A'ja Wilson $11000 (LAV): Our model has A'ja Wilson projected for 47.59 fantasy point with a minutes projection of 36.0. DK value: 4.33
+3. Rhyne Howard $9700 (ATL): Our model has Rhyne Howard projected for 39.83 fantasy point with a minutes projection of 36.0. DK value: 4.11
+4. Tina Charles $10200 (CON): Our model has Tina Charles projected for 38.48 fantasy point with a minutes projection of 31.0. DK value: 3.77
+5. Allisha Gray $9900 (ATL): Our model has Allisha Gray projected for 38.2 fantasy point with a minutes projection of 35.0. DK value: 3.86
+The top 5 DK values are:
+1. Te-Hina Paopao $4000 (ATL): Our model has Te-Hina Paopao projected for 23.25 fantasy point with a minutes projection of 25.0. DK value: 5.81
+2. Caitlin Clark $11200 (IND): Our model has Caitlin Clark projected for 55.38 fantasy point with a minutes projection of 35.0. DK value: 4.94
+3. A'ja Wilson $11000 (LAV): Our model has A'ja Wilson projected for 47.59 fantasy point with a minutes projection of 36.0. DK value: 4.33
+4. Olivia Nelson-Ododa $5800 (CON): Our model has Olivia Nelson-Ododa projected for 24.06 fantasy point with a minutes projection of 28.0. DK value: 4.15
+5. Rhyne Howard $9700 (ATL): Our model has Rhyne Howard projected for 39.83 fantasy point with a minutes projection of 36.0. DK value: 4.11

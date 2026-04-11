@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Aliyah Boston $10900 (IND): Our model has Aliyah Boston projected for 38.14 fantasy point with a minutes projection of 29.0. DK value: 3.5
+2. Shakira Austin $9100 (WAS): Our model has Shakira Austin projected for 37.64 fantasy point with a minutes projection of 26.0. DK value: 4.14
+3. Dearica Hamby $10600 (LAS): Our model has Dearica Hamby projected for 37.01 fantasy point with a minutes projection of 34.0. DK value: 3.49
+4. Tina Charles $8800 (CON): Our model has Tina Charles projected for 34.8 fantasy point with a minutes projection of 34.0. DK value: 3.95
+5. Caitlin Clark $11500 (IND): Our model has Caitlin Clark projected for 34.07 fantasy point with a minutes projection of 26.0. DK value: 2.96
+The top 5 DK values are:
+1. Shakira Austin $9100 (WAS): Our model has Shakira Austin projected for 37.64 fantasy point with a minutes projection of 26.0. DK value: 4.14
+2. Aaliyah Edwards $4400 (WAS): Our model has Aaliyah Edwards projected for 18.15 fantasy point with a minutes projection of 15.0. DK value: 4.13
+3. Tina Charles $8800 (CON): Our model has Tina Charles projected for 34.8 fantasy point with a minutes projection of 34.0. DK value: 3.95
+4. Bria Hartley $6600 (CON): Our model has Bria Hartley projected for 24.1 fantasy point with a minutes projection of 29.0. DK value: 3.65
+5. Damiris Dantas $3600 (IND): Our model has Damiris Dantas projected for 12.92 fantasy point with a minutes projection of 16.0. DK value: 3.59

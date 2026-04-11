@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $11900 (LAV): Our model has A'ja Wilson projected for 49.27 fantasy point with a minutes projection of 35.0. DK value: 4.14
+2. Kelsey Plum $10900 (LAS): Our model has Kelsey Plum projected for 41.57 fantasy point with a minutes projection of 37.0. DK value: 3.81
+3. Dearica Hamby $10700 (LAS): Our model has Dearica Hamby projected for 41.02 fantasy point with a minutes projection of 34.0. DK value: 3.83
+4. Satou Sabally $11100 (PHO): Our model has Satou Sabally projected for 40.94 fantasy point with a minutes projection of 33.0. DK value: 3.69
+5. Nneka Ogwumike $9900 (SEA): Our model has Nneka Ogwumike projected for 37.75 fantasy point with a minutes projection of 34.0. DK value: 3.81
+The top 5 DK values are:
+1. Monique Akoa Makani $3500 (PHO): Our model has Monique Akoa Makani projected for 17.63 fantasy point with a minutes projection of 23.0. DK value: 5.04
+2. Azurá Stevens $8600 (LAS): Our model has Azurá Stevens projected for 36.81 fantasy point with a minutes projection of 32.0. DK value: 4.28
+3. Kamilla Cardoso $7100 (CHI): Our model has Kamilla Cardoso projected for 29.91 fantasy point with a minutes projection of 27.0. DK value: 4.21
+4. A'ja Wilson $11900 (LAV): Our model has A'ja Wilson projected for 49.27 fantasy point with a minutes projection of 35.0. DK value: 4.14
+5. Gabby Williams $7800 (SEA): Our model has Gabby Williams projected for 31.39 fantasy point with a minutes projection of 36.0. DK value: 4.02

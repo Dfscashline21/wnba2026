@@ -1,0 +1,25 @@
+Player,Team,Position,Predicted_Minutes,Confidence,Key_Factors
+Player_1,LAS,SG,19.3,0.75,Starter (+3.0 min); Home court (+1.0 min)
+Player_2,LAS,PF,18.1,0.6,Starter (+3.0 min); Veteran rest (-1.0 min); Injury status: questionable; Home court (+1.0 min)
+Player_3,LAS,SG,26.4,0.75,Starter (+3.0 min); Home court (+1.0 min)
+Player_4,LAS,C,4.0,0.75,Starter (+3.0 min); Home court (+1.0 min)
+Player_5,LAS,SG,15.9,0.75,Starter (+3.0 min); Home court (+1.0 min)
+Player_6,LAS,SF,9.5,0.75,Veteran rest (-1.0 min); Home court (+1.0 min)
+Player_7,LAS,SF,27.0,0.75,Home court (+1.0 min)
+Player_8,LAS,SF,22.0,0.75,Home court (+1.0 min)
+Player_9,LAS,PF,16.6,0.75,Veteran rest (-1.0 min); Home court (+1.0 min)
+Player_10,LAS,PG,12.5,0.75,Home court (+1.0 min)
+Player_11,LAS,SG,17.1,0.6,Injury status: questionable; Home court (+1.0 min)
+Player_12,LAS,SF,32.5,0.75,Home court (+1.0 min)
+Player_13,SEA,C,16.3,0.6,Starter (+3.0 min); Injury status: questionable
+Player_14,SEA,SG,20.1,0.6,Starter (+3.0 min); Injury status: probable
+Player_15,SEA,C,6.2,0.75,Starter (+3.0 min); Veteran rest (-1.0 min)
+Player_16,SEA,SF,16.5,0.75,Starter (+3.0 min)
+Player_17,SEA,PF,18.8,0.75,Starter (+3.0 min)
+Player_18,SEA,C,9.5,0.75,
+Player_19,SEA,PG,29.4,0.6,Injury status: probable
+Player_20,SEA,SG,18.8,0.75,
+Player_21,SEA,SG,14.5,0.75,
+Player_22,SEA,SF,14.1,0.75,
+Player_23,SEA,SF,11.8,0.75,
+Player_24,SEA,PG,17.1,0.75,

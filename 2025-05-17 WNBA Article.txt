@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $10800 (LAV): Our model has A'ja Wilson projected for 52.21 fantasy point with a minutes projection of 34.0. DK value: 4.83
+2. Caitlin Clark $11100 (IND): Our model has Caitlin Clark projected for 47.38 fantasy point with a minutes projection of 35.0. DK value: 4.27
+3. Nneka Ogwumike $9500 (SEA): Our model has Nneka Ogwumike projected for 39.66 fantasy point with a minutes projection of 32.0. DK value: 4.17
+4. Breanna Stewart $10400 (NYL): Our model has Breanna Stewart projected for 39.32 fantasy point with a minutes projection of 33.0. DK value: 3.78
+5. Skylar Diggins $8800 (SEA): Our model has Skylar Diggins projected for 37.74 fantasy point with a minutes projection of 32.0. DK value: 4.29
+The top 5 DK values are:
+1. Kiah Stokes $3500 (LAV): Our model has Kiah Stokes projected for 18.71 fantasy point with a minutes projection of 27.0. DK value: 5.35
+2. Kamilla Cardoso $7300 (CHI): Our model has Kamilla Cardoso projected for 35.76 fantasy point with a minutes projection of 27.0. DK value: 4.9
+3. A'ja Wilson $10800 (LAV): Our model has A'ja Wilson projected for 52.21 fantasy point with a minutes projection of 34.0. DK value: 4.83
+4. Jonquel Jones $8600 (NYL): Our model has Jonquel Jones projected for 37.02 fantasy point with a minutes projection of 30.0. DK value: 4.3
+5. Skylar Diggins $8800 (SEA): Our model has Skylar Diggins projected for 37.74 fantasy point with a minutes projection of 32.0. DK value: 4.29

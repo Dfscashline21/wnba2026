@@ -1,0 +1,12 @@
+rank,legs,parlay_details,roi_percent,expected_value,win_probability_percent,parlay_odds,recommended_bet,potential_payout,edge,kelly_fraction
+1,4,A'ja Wilson Rebounds over 7.5 + Breanna Stewart Points over 18.5 + Sabrina Ionescu Assists over 6.5 + Alyssa Thomas Points over 14.5,301.31,301.31,27.3,1370,219.93,1470.0,0.205,0.2199
+2,3,A'ja Wilson Rebounds over 7.5 + Breanna Stewart Points over 18.5 + Alyssa Thomas Points over 14.5,200.98,200.98,34.12,782,257.01,882.0,0.2279,0.257
+3,3,A'ja Wilson Rebounds over 7.5 + Breanna Stewart Points over 18.5 + Sabrina Ionescu Assists over 6.5,194.0,194.0,42.0,600,323.33,700.0,0.2771,0.3233
+4,3,Breanna Stewart Points over 18.5 + Sabrina Ionescu Assists over 6.5 + Alyssa Thomas Points over 14.5,180.28,180.28,36.4,670,269.07,770.0,0.2341,0.2691
+5,3,A'ja Wilson Rebounds over 7.5 + Sabrina Ionescu Assists over 6.5 + Alyssa Thomas Points over 14.5,160.59,160.59,39.0,568,282.64,668.18,0.2403,0.2826
+6,2,A'ja Wilson Rebounds over 7.5 + Breanna Stewart Points over 18.5,120.5,120.5,52.5,320,376.56,420.0,0.2869,0.3766
+7,2,Breanna Stewart Points over 18.5 + Alyssa Thomas Points over 14.5,110.21,110.21,45.5,362,304.45,462.0,0.2385,0.3044
+8,2,Breanna Stewart Points over 18.5 + Sabrina Ionescu Assists over 6.5,105.33,105.33,56.0,267,395.0,366.67,0.2873,0.395
+9,2,A'ja Wilson Rebounds over 7.5 + Alyssa Thomas Points over 14.5,95.44,95.44,48.75,301,317.18,400.91,0.2381,0.3172
+10,2,A'ja Wilson Rebounds over 7.5 + Sabrina Ionescu Assists over 6.5,90.91,90.91,60.0,218,416.67,318.18,0.2857,0.4167
+11,2,Sabrina Ionescu Assists over 6.5 + Alyssa Thomas Points over 14.5,82.0,82.0,52.0,250,328.0,350.0,0.2343,0.328

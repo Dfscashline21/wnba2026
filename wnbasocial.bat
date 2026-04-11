@@ -1,0 +1,2 @@
+cd wnba
+python wnba_social_video_generator

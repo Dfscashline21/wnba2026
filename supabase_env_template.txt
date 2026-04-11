@@ -1,0 +1,25 @@
+# Supabase Environment Configuration Template
+# Copy this to your .env file and fill in your actual values
+
+# Supabase Configuration
+SUPABASE_URL=https://your-project-id.supabase.co
+SUPABASE_ANON_KEY=your-anon-key-here
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key-here
+
+# Legacy PostgreSQL (for backward compatibility during migration)
+DB_HOST=your-legacy-postgres-host
+DB_NAME=your-legacy-db-name
+DB_USER=your-legacy-db-user
+DB_PASSWORD=your-legacy-db-password
+DB_PORT=5432
+
+# AWS S3 (for migration purposes)
+AWS_ACCESS_KEY_ID=your-aws-access-key
+AWS_SECRET_ACCESS_KEY=your-aws-secret-key
+
+# Existing environment variables
+NAME_REPLACE={"your-name-mapping": "here"}
+TEAM_REPLACE={"your-team-mapping": "here"}
+
+# Google Sheets (existing)
+GOOGLE_SHEETS_CREDENTIALS_FILE=wnba-files-c2213e18569e.json

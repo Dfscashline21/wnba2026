@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12400 (LAV): Our model has A'ja Wilson projected for 57.55 fantasy point with a minutes projection of 35.99. DK value: 4.64
+2. Sabrina Ionescu $11700 (NYL): Our model has Sabrina Ionescu projected for 52.05 fantasy point with a minutes projection of 35.5. DK value: 4.45
+3. Jonquel Jones $10400 (NYL): Our model has Jonquel Jones projected for 42.26 fantasy point with a minutes projection of 29.23. DK value: 4.06
+4. Skylar Diggins $9800 (SEA): Our model has Skylar Diggins projected for 38.53 fantasy point with a minutes projection of 36.44. DK value: 3.93
+5. Nneka Ogwumike $10600 (SEA): Our model has Nneka Ogwumike projected for 37.06 fantasy point with a minutes projection of 31.5. DK value: 3.5
+The top 5 DK values are:
+1. Emma Meesseman $4800 (NYL): Our model has Emma Meesseman projected for 33.91 fantasy point with a minutes projection of 26.35. DK value: 7.06
+2. Haley Jones $6700 (DAL): Our model has Haley Jones projected for 31.42 fantasy point with a minutes projection of 34.68. DK value: 4.69
+3. A'ja Wilson $12400 (LAV): Our model has A'ja Wilson projected for 57.55 fantasy point with a minutes projection of 35.99. DK value: 4.64
+4. Jessica Shepard $7500 (MIN): Our model has Jessica Shepard projected for 34.46 fantasy point with a minutes projection of 30.53. DK value: 4.59
+5. Sabrina Ionescu $11700 (NYL): Our model has Sabrina Ionescu projected for 52.05 fantasy point with a minutes projection of 35.5. DK value: 4.45

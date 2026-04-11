@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Dearica Hamby $10100 (LAS): Our model has Dearica Hamby projected for 41.49 fantasy point with a minutes projection of 33.0. DK value: 4.11
+2. Nneka Ogwumike $10600 (SEA): Our model has Nneka Ogwumike projected for 39.05 fantasy point with a minutes projection of 34.0. DK value: 3.68
+3. Azurá Stevens $11000 (LAS): Our model has Azurá Stevens projected for 36.94 fantasy point with a minutes projection of 29.0. DK value: 3.36
+4. Shakira Austin $9200 (WAS): Our model has Shakira Austin projected for 36.65 fantasy point with a minutes projection of 27.0. DK value: 3.98
+5. Tina Charles $8200 (CON): Our model has Tina Charles projected for 36.48 fantasy point with a minutes projection of 33.0. DK value: 4.45
+The top 5 DK values are:
+1. Olivia Nelson-Ododa $7000 (CON): Our model has Olivia Nelson-Ododa projected for 33.58 fantasy point with a minutes projection of 28.0. DK value: 4.8
+2. Tina Charles $8200 (CON): Our model has Tina Charles projected for 36.48 fantasy point with a minutes projection of 33.0. DK value: 4.45
+3. Dearica Hamby $10100 (LAS): Our model has Dearica Hamby projected for 41.49 fantasy point with a minutes projection of 33.0. DK value: 4.11
+4. Shakira Austin $9200 (WAS): Our model has Shakira Austin projected for 36.65 fantasy point with a minutes projection of 27.0. DK value: 3.98
+5. Gabby Williams $9400 (SEA): Our model has Gabby Williams projected for 35.81 fantasy point with a minutes projection of 34.0. DK value: 3.81

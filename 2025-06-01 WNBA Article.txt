@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 53.78 fantasy point with a minutes projection of 35.0. DK value: 4.48
+2. Satou Sabally $11800 (PHO): Our model has Satou Sabally projected for 46.87 fantasy point with a minutes projection of 33.0. DK value: 3.97
+3. Napheesa Collier $11600 (MIN): Our model has Napheesa Collier projected for 45.61 fantasy point with a minutes projection of 32.0. DK value: 3.93
+4. Nneka Ogwumike $10300 (SEA): Our model has Nneka Ogwumike projected for 38.68 fantasy point with a minutes projection of 32.0. DK value: 3.76
+5. Kelsey Plum $10600 (LAS): Our model has Kelsey Plum projected for 38.53 fantasy point with a minutes projection of 36.0. DK value: 3.63
+The top 5 DK values are:
+1. Monique Akoa Makani $5800 (PHO): Our model has Monique Akoa Makani projected for 27.64 fantasy point with a minutes projection of 32.0. DK value: 4.77
+2. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 53.78 fantasy point with a minutes projection of 35.0. DK value: 4.48
+3. Satou Sabally $11800 (PHO): Our model has Satou Sabally projected for 46.87 fantasy point with a minutes projection of 33.0. DK value: 3.97
+4. Napheesa Collier $11600 (MIN): Our model has Napheesa Collier projected for 45.61 fantasy point with a minutes projection of 32.0. DK value: 3.93
+5. Nneka Ogwumike $10300 (SEA): Our model has Nneka Ogwumike projected for 38.68 fantasy point with a minutes projection of 32.0. DK value: 3.76

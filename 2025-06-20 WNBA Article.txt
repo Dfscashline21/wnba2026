@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $11800 (LAV): Our model has A'ja Wilson projected for 48.91 fantasy point with a minutes projection of 28.0. DK value: 4.14
+2. Paige Bueckers $11500 (DAL): Our model has Paige Bueckers projected for 40.64 fantasy point with a minutes projection of 36.0. DK value: 3.53
+3. Rhyne Howard $11300 (ATL): Our model has Rhyne Howard projected for 37.66 fantasy point with a minutes projection of 35.0. DK value: 3.33
+4. Arike Ogunbowale $10800 (DAL): Our model has Arike Ogunbowale projected for 36.28 fantasy point with a minutes projection of 35.0. DK value: 3.36
+5. Allisha Gray $10200 (ATL): Our model has Allisha Gray projected for 35.75 fantasy point with a minutes projection of 34.0. DK value: 3.5
+The top 5 DK values are:
+1. A'ja Wilson $11800 (LAV): Our model has A'ja Wilson projected for 48.91 fantasy point with a minutes projection of 28.0. DK value: 4.14
+2. Erica Wheeler $7400 (SEA): Our model has Erica Wheeler projected for 26.73 fantasy point with a minutes projection of 27.0. DK value: 3.61
+3. Myisha Hines-Allen $8000 (DAL): Our model has Myisha Hines-Allen projected for 28.74 fantasy point with a minutes projection of 27.0. DK value: 3.59
+4. Gabby Williams $9900 (SEA): Our model has Gabby Williams projected for 35.56 fantasy point with a minutes projection of 34.0. DK value: 3.59
+5. Paige Bueckers $11500 (DAL): Our model has Paige Bueckers projected for 40.64 fantasy point with a minutes projection of 36.0. DK value: 3.53

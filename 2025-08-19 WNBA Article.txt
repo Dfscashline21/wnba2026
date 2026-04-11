@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $13000 (LAV): Our model has A'ja Wilson projected for 46.16 fantasy point with a minutes projection of 32.19. DK value: 3.55
+2. Alyssa Thomas $12500 (PHO): Our model has Alyssa Thomas projected for 45.02 fantasy point with a minutes projection of 36.0. DK value: 3.6
+3. Courtney Williams $10600 (MIN): Our model has Courtney Williams projected for 44.13 fantasy point with a minutes projection of 35.0. DK value: 4.16
+4. Shakira Austin $9900 (WAS): Our model has Shakira Austin projected for 41.68 fantasy point with a minutes projection of 30.0. DK value: 4.21
+5. Nneka Ogwumike $10900 (SEA): Our model has Nneka Ogwumike projected for 41.05 fantasy point with a minutes projection of 33.83. DK value: 3.77
+The top 5 DK values are:
+1. Laeticia Amihere $3400 (GSV): Our model has Laeticia Amihere projected for 20.69 fantasy point with a minutes projection of 18.0. DK value: 6.09
+2. Leila Lacan $6700 (CON): Our model has Leila Lacan projected for 36.22 fantasy point with a minutes projection of 36.0. DK value: 5.41
+3. Saniya Rivers $7200 (CON): Our model has Saniya Rivers projected for 32.31 fantasy point with a minutes projection of 36.0. DK value: 4.49
+4. Alanna Smith $8600 (MIN): Our model has Alanna Smith projected for 38.28 fantasy point with a minutes projection of 34.68. DK value: 4.45
+5. Kiki Iriafen $8400 (WAS): Our model has Kiki Iriafen projected for 36.71 fantasy point with a minutes projection of 28.98. DK value: 4.37

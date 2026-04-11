@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Allisha Gray $10300 (ATL): Our model has Allisha Gray projected for 43.99 fantasy point with a minutes projection of 35.0. DK value: 4.27
+2. Jackie Young $9400 (LAV): Our model has Jackie Young projected for 41.99 fantasy point with a minutes projection of 36.0. DK value: 4.47
+3. Rhyne Howard $11200 (ATL): Our model has Rhyne Howard projected for 40.89 fantasy point with a minutes projection of 35.0. DK value: 3.65
+4. Chelsea Gray $8800 (LAV): Our model has Chelsea Gray projected for 38.12 fantasy point with a minutes projection of 36.0. DK value: 4.33
+5. Paige Bueckers $10600 (DAL): Our model has Paige Bueckers projected for 36.97 fantasy point with a minutes projection of 35.0. DK value: 3.49
+The top 5 DK values are:
+1. Kiah Stokes $3800 (LAV): Our model has Kiah Stokes projected for 19.12 fantasy point with a minutes projection of 30.0. DK value: 5.03
+2. Jackie Young $9400 (LAV): Our model has Jackie Young projected for 41.99 fantasy point with a minutes projection of 36.0. DK value: 4.47
+3. Chelsea Gray $8800 (LAV): Our model has Chelsea Gray projected for 38.12 fantasy point with a minutes projection of 36.0. DK value: 4.33
+4. Allisha Gray $10300 (ATL): Our model has Allisha Gray projected for 43.99 fantasy point with a minutes projection of 35.0. DK value: 4.27
+5. Naz Hillmon $5800 (ATL): Our model has Naz Hillmon projected for 23.6 fantasy point with a minutes projection of 23.0. DK value: 4.07

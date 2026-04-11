@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Alyssa Thomas $12000 (PHO): Our model has Alyssa Thomas projected for 48.02 fantasy point with a minutes projection of 33.0. DK value: 4.0
+2. Aliyah Boston $12200 (IND): Our model has Aliyah Boston projected for 38.36 fantasy point with a minutes projection of 32.0. DK value: 3.14
+3. Veronica Burton $10400 (GSV): Our model has Veronica Burton projected for 37.21 fantasy point with a minutes projection of 31.0. DK value: 3.58
+4. Satou Sabally $9400 (PHO): Our model has Satou Sabally projected for 32.31 fantasy point with a minutes projection of 29.0. DK value: 3.44
+5. Breanna Stewart $10000 (NYL): Our model has Breanna Stewart projected for 30.66 fantasy point with a minutes projection of 28.0. DK value: 3.07
+The top 5 DK values are:
+1. Alyssa Thomas $12000 (PHO): Our model has Alyssa Thomas projected for 48.02 fantasy point with a minutes projection of 33.0. DK value: 4.0
+2. Kaila Charles $5900 (GSV): Our model has Kaila Charles projected for 23.08 fantasy point with a minutes projection of 28.0. DK value: 3.91
+3. Veronica Burton $10400 (GSV): Our model has Veronica Burton projected for 37.21 fantasy point with a minutes projection of 31.0. DK value: 3.58
+4. Satou Sabally $9400 (PHO): Our model has Satou Sabally projected for 32.31 fantasy point with a minutes projection of 29.0. DK value: 3.44
+5. Kahleah Copper $7900 (PHO): Our model has Kahleah Copper projected for 27.08 fantasy point with a minutes projection of 30.0. DK value: 3.43

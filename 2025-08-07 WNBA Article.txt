@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Alyssa Thomas $12000 (PHO): Our model has Alyssa Thomas projected for 48.43 fantasy point with a minutes projection of 32.0. DK value: 4.04
+2. Jordin Canada $10000 (ATL): Our model has Jordin Canada projected for 40.09 fantasy point with a minutes projection of 36.0. DK value: 4.01
+3. Tina Charles $10200 (CON): Our model has Tina Charles projected for 37.58 fantasy point with a minutes projection of 32.0. DK value: 3.68
+4. Dearica Hamby $11200 (LAS): Our model has Dearica Hamby projected for 37.48 fantasy point with a minutes projection of 33.0. DK value: 3.35
+5. Kelsey Plum $11400 (LAS): Our model has Kelsey Plum projected for 36.32 fantasy point with a minutes projection of 34.0. DK value: 3.19
+The top 5 DK values are:
+1. Te-Hina Paopao $5500 (ATL): Our model has Te-Hina Paopao projected for 34.91 fantasy point with a minutes projection of 32.0. DK value: 6.35
+2. Leila Lacan $5000 (CON): Our model has Leila Lacan projected for 23.01 fantasy point with a minutes projection of 23.0. DK value: 4.6
+3. Naz Hillmon $8400 (ATL): Our model has Naz Hillmon projected for 34.71 fantasy point with a minutes projection of 35.0. DK value: 4.13
+4. Satou Sabally $8000 (PHO): Our model has Satou Sabally projected for 32.58 fantasy point with a minutes projection of 29.0. DK value: 4.07
+5. Alyssa Thomas $12000 (PHO): Our model has Alyssa Thomas projected for 48.43 fantasy point with a minutes projection of 32.0. DK value: 4.04

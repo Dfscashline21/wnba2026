@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $11700 (MIN): Our model has Napheesa Collier projected for 46.92 fantasy point with a minutes projection of 34.0. DK value: 4.01
+2. Courtney Williams $9200 (MIN): Our model has Courtney Williams projected for 36.78 fantasy point with a minutes projection of 31.0. DK value: 4.0
+3. Aliyah Boston $10900 (IND): Our model has Aliyah Boston projected for 35.6 fantasy point with a minutes projection of 33.0. DK value: 3.27
+4. Alanna Smith $8800 (MIN): Our model has Alanna Smith projected for 29.02 fantasy point with a minutes projection of 30.0. DK value: 3.3
+5. Kayla McBride $8100 (MIN): Our model has Kayla McBride projected for 28.45 fantasy point with a minutes projection of 34.0. DK value: 3.51
+The top 5 DK values are:
+1. Napheesa Collier $11700 (MIN): Our model has Napheesa Collier projected for 46.92 fantasy point with a minutes projection of 34.0. DK value: 4.01
+2. Courtney Williams $9200 (MIN): Our model has Courtney Williams projected for 36.78 fantasy point with a minutes projection of 31.0. DK value: 4.0
+3. Kayla McBride $8100 (MIN): Our model has Kayla McBride projected for 28.45 fantasy point with a minutes projection of 34.0. DK value: 3.51
+4. Alanna Smith $8800 (MIN): Our model has Alanna Smith projected for 29.02 fantasy point with a minutes projection of 30.0. DK value: 3.3
+5. Aliyah Boston $10900 (IND): Our model has Aliyah Boston projected for 35.6 fantasy point with a minutes projection of 33.0. DK value: 3.27

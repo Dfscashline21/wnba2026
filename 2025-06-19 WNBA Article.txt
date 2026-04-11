@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Sabrina Ionescu $11400 (NYL): Our model has Sabrina Ionescu projected for 46.63 fantasy point with a minutes projection of 35.0. DK value: 4.09
+2. Caitlin Clark $12000 (IND): Our model has Caitlin Clark projected for 44.41 fantasy point with a minutes projection of 30.0. DK value: 3.7
+3. Satou Sabally $10700 (PHO): Our model has Satou Sabally projected for 40.31 fantasy point with a minutes projection of 29.0. DK value: 3.77
+4. Breanna Stewart $10500 (NYL): Our model has Breanna Stewart projected for 39.31 fantasy point with a minutes projection of 35.0. DK value: 3.74
+5. Alyssa Thomas $10900 (PHO): Our model has Alyssa Thomas projected for 37.61 fantasy point with a minutes projection of 29.0. DK value: 3.45
+The top 5 DK values are:
+1. Laeticia Amihere $4500 (GSV): Our model has Laeticia Amihere projected for 20.27 fantasy point with a minutes projection of 24.0. DK value: 4.5
+2. Sabrina Ionescu $11400 (NYL): Our model has Sabrina Ionescu projected for 46.63 fantasy point with a minutes projection of 35.0. DK value: 4.09
+3. Kayla Thornton $9200 (GSV): Our model has Kayla Thornton projected for 37.44 fantasy point with a minutes projection of 35.0. DK value: 4.07
+4. Monique Billings $7500 (GSV): Our model has Monique Billings projected for 29.25 fantasy point with a minutes projection of 28.0. DK value: 3.9
+5. Satou Sabally $10700 (PHO): Our model has Satou Sabally projected for 40.31 fantasy point with a minutes projection of 29.0. DK value: 3.77

@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Angel Reese $11100 (CHI): Our model has Angel Reese projected for 41.11 fantasy point with a minutes projection of 30.0. DK value: 3.7
+2. Satou Sabally $11900 (PHO): Our model has Satou Sabally projected for 39.84 fantasy point with a minutes projection of 30.0. DK value: 3.35
+3. Aliyah Boston $10300 (IND): Our model has Aliyah Boston projected for 39.18 fantasy point with a minutes projection of 29.0. DK value: 3.8
+4. Skylar Diggins $10600 (SEA): Our model has Skylar Diggins projected for 35.46 fantasy point with a minutes projection of 32.0. DK value: 3.35
+5. Nneka Ogwumike $11000 (SEA): Our model has Nneka Ogwumike projected for 33.85 fantasy point with a minutes projection of 32.0. DK value: 3.08
+The top 5 DK values are:
+1. Aari McDonald $3700 (IND): Our model has Aari McDonald projected for 28.04 fantasy point with a minutes projection of 27.0. DK value: 7.58
+2. Alexa Held $5200 (PHO): Our model has Alexa Held projected for 22.06 fantasy point with a minutes projection of 27.0. DK value: 4.24
+3. Lexie Hull $7300 (IND): Our model has Lexie Hull projected for 29.24 fantasy point with a minutes projection of 33.0. DK value: 4.0
+4. Ariel Atkins $7900 (CHI): Our model has Ariel Atkins projected for 31.3 fantasy point with a minutes projection of 30.0. DK value: 3.96
+5. Damiris Dantas $4000 (IND): Our model has Damiris Dantas projected for 15.74 fantasy point with a minutes projection of 15.0. DK value: 3.93

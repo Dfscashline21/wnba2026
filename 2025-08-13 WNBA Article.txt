@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $13000 (LAV): Our model has A'ja Wilson projected for 48.26 fantasy point with a minutes projection of 32.0. DK value: 3.71
+2. Jackie Young $11700 (LAV): Our model has Jackie Young projected for 43.65 fantasy point with a minutes projection of 32.0. DK value: 3.73
+3. Sabrina Ionescu $11500 (NYL): Our model has Sabrina Ionescu projected for 41.15 fantasy point with a minutes projection of 31.0. DK value: 3.58
+4. Jonquel Jones $10300 (NYL): Our model has Jonquel Jones projected for 35.91 fantasy point with a minutes projection of 31.0. DK value: 3.49
+5. Allisha Gray $11000 (ATL): Our model has Allisha Gray projected for 34.72 fantasy point with a minutes projection of 34.0. DK value: 3.16
+The top 5 DK values are:
+1. Leila Lacan $6000 (CON): Our model has Leila Lacan projected for 27.27 fantasy point with a minutes projection of 25.0. DK value: 4.54
+2. Aaliyah Edwards $4300 (CON): Our model has Aaliyah Edwards projected for 18.94 fantasy point with a minutes projection of 17.0. DK value: 4.41
+3. Emma Meesseman $7200 (NYL): Our model has Emma Meesseman projected for 31.26 fantasy point with a minutes projection of 31.0. DK value: 4.34
+4. Cecilia Zandalasini $6700 (GSV): Our model has Cecilia Zandalasini projected for 25.82 fantasy point with a minutes projection of 30.0. DK value: 3.85
+5. Elizabeth Williams $8900 (CHI): Our model has Elizabeth Williams projected for 33.33 fantasy point with a minutes projection of 29.0. DK value: 3.75

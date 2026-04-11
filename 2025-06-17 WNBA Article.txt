@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $13000 (MIN): Our model has Napheesa Collier projected for 53.7 fantasy point with a minutes projection of 35.0. DK value: 4.13
+2. Caitlin Clark $12000 (IND): Our model has Caitlin Clark projected for 46.6 fantasy point with a minutes projection of 32.0. DK value: 3.88
+3. Brittney Sykes $10800 (WAS): Our model has Brittney Sykes projected for 38.51 fantasy point with a minutes projection of 31.0. DK value: 3.57
+4. Azurá Stevens $9300 (LAS): Our model has Azurá Stevens projected for 38.39 fantasy point with a minutes projection of 33.0. DK value: 4.13
+5. Dearica Hamby $10700 (LAS): Our model has Dearica Hamby projected for 37.62 fantasy point with a minutes projection of 33.0. DK value: 3.52
+The top 5 DK values are:
+1. Aziaha James $3600 (DAL): Our model has Aziaha James projected for 19.23 fantasy point with a minutes projection of 20.0. DK value: 5.34
+2. Emma Cannon $4000 (LAS): Our model has Emma Cannon projected for 21.3 fantasy point with a minutes projection of 25.0. DK value: 5.33
+3. JJ Quinerly $3100 (DAL): Our model has JJ Quinerly projected for 16.01 fantasy point with a minutes projection of 11.0. DK value: 5.16
+4. Stephanie Talbot $4200 (GSV): Our model has Stephanie Talbot projected for 20.11 fantasy point with a minutes projection of 25.0. DK value: 4.79
+5. Monique Billings $5600 (GSV): Our model has Monique Billings projected for 26.0 fantasy point with a minutes projection of 20.0. DK value: 4.64

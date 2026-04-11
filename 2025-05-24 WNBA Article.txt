@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Caitlin Clark $11900 (IND): Our model has Caitlin Clark projected for 47.33 fantasy point with a minutes projection of 34.0. DK value: 3.98
+2. Rhyne Howard $9000 (ATL): Our model has Rhyne Howard projected for 41.0 fantasy point with a minutes projection of 35.0. DK value: 4.56
+3. Allisha Gray $9600 (ATL): Our model has Allisha Gray projected for 40.03 fantasy point with a minutes projection of 35.0. DK value: 4.17
+4. Jonquel Jones $8400 (NYL): Our model has Jonquel Jones projected for 36.79 fantasy point with a minutes projection of 30.0. DK value: 4.38
+5. Paige Bueckers $9900 (DAL): Our model has Paige Bueckers projected for 35.92 fantasy point with a minutes projection of 37.0. DK value: 3.63
+The top 5 DK values are:
+1. Kennedy Burke $3200 (NYL): Our model has Kennedy Burke projected for 18.45 fantasy point with a minutes projection of 18.0. DK value: 5.77
+2. Rhyne Howard $9000 (ATL): Our model has Rhyne Howard projected for 41.0 fantasy point with a minutes projection of 35.0. DK value: 4.56
+3. Jonquel Jones $8400 (NYL): Our model has Jonquel Jones projected for 36.79 fantasy point with a minutes projection of 30.0. DK value: 4.38
+4. Allisha Gray $9600 (ATL): Our model has Allisha Gray projected for 40.03 fantasy point with a minutes projection of 35.0. DK value: 4.17
+5. Natasha Cloud $8000 (NYL): Our model has Natasha Cloud projected for 32.06 fantasy point with a minutes projection of 30.0. DK value: 4.01

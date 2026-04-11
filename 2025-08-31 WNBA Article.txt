@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Dearica Hamby $10600 (LAS): Our model has Dearica Hamby projected for 38.71 fantasy point with a minutes projection of 30.0. DK value: 3.65
+2. Veronica Burton $11000 (GSV): Our model has Veronica Burton projected for 38.02 fantasy point with a minutes projection of 29.0. DK value: 3.46
+3. Aliyah Boston $11800 (IND): Our model has Aliyah Boston projected for 36.4 fantasy point with a minutes projection of 33.0. DK value: 3.09
+4. Kelsey Plum $11300 (LAS): Our model has Kelsey Plum projected for 33.03 fantasy point with a minutes projection of 34.0. DK value: 2.92
+5. Sonia Citron $9100 (WAS): Our model has Sonia Citron projected for 31.75 fantasy point with a minutes projection of 31.0. DK value: 3.49
+The top 5 DK values are:
+1. Alysha Clark $4300 (WAS): Our model has Alysha Clark projected for 20.72 fantasy point with a minutes projection of 26.0. DK value: 4.82
+2. Rae Burrell $4200 (LAS): Our model has Rae Burrell projected for 15.38 fantasy point with a minutes projection of 20.0. DK value: 3.66
+3. Dearica Hamby $10600 (LAS): Our model has Dearica Hamby projected for 38.71 fantasy point with a minutes projection of 30.0. DK value: 3.65
+4. Kiki Iriafen $8900 (WAS): Our model has Kiki Iriafen projected for 31.64 fantasy point with a minutes projection of 28.0. DK value: 3.55
+5. Sonia Citron $9100 (WAS): Our model has Sonia Citron projected for 31.75 fantasy point with a minutes projection of 31.0. DK value: 3.49

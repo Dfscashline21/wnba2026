@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $11400 (MIN): Our model has Napheesa Collier projected for 52.82 fantasy point with a minutes projection of 34.0. DK value: 4.63
+2. Courtney Williams $9900 (MIN): Our model has Courtney Williams projected for 36.64 fantasy point with a minutes projection of 30.0. DK value: 3.7
+3. Dearica Hamby $10400 (LAS): Our model has Dearica Hamby projected for 35.22 fantasy point with a minutes projection of 33.0. DK value: 3.39
+4. Alanna Smith $9000 (MIN): Our model has Alanna Smith projected for 34.39 fantasy point with a minutes projection of 28.0. DK value: 3.82
+5. Jackie Young $9100 (LAV): Our model has Jackie Young projected for 31.69 fantasy point with a minutes projection of 30.0. DK value: 3.48
+The top 5 DK values are:
+1. Napheesa Collier $11400 (MIN): Our model has Napheesa Collier projected for 52.82 fantasy point with a minutes projection of 34.0. DK value: 4.63
+2. Alanna Smith $9000 (MIN): Our model has Alanna Smith projected for 34.39 fantasy point with a minutes projection of 28.0. DK value: 3.82
+3. Courtney Williams $9900 (MIN): Our model has Courtney Williams projected for 36.64 fantasy point with a minutes projection of 30.0. DK value: 3.7
+4. NaLyssa Smith $8200 (LAV): Our model has NaLyssa Smith projected for 30.24 fantasy point with a minutes projection of 32.0. DK value: 3.69
+5. Jackie Young $9100 (LAV): Our model has Jackie Young projected for 31.69 fantasy point with a minutes projection of 30.0. DK value: 3.48

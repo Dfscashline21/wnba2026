@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Kelsey Plum $10800 (LAS): Our model has Kelsey Plum projected for 44.97 fantasy point with a minutes projection of 36.0. DK value: 4.16
+2. Allisha Gray $9800 (ATL): Our model has Allisha Gray projected for 39.95 fantasy point with a minutes projection of 35.0. DK value: 4.08
+3. Dearica Hamby $10400 (LAS): Our model has Dearica Hamby projected for 39.01 fantasy point with a minutes projection of 33.0. DK value: 3.75
+4. Rhyne Howard $10200 (ATL): Our model has Rhyne Howard projected for 37.31 fantasy point with a minutes projection of 35.0. DK value: 3.66
+5. Azurá Stevens $9600 (LAS): Our model has Azurá Stevens projected for 32.96 fantasy point with a minutes projection of 29.0. DK value: 3.43
+The top 5 DK values are:
+1. Naz Hillmon $4500 (ATL): Our model has Naz Hillmon projected for 19.15 fantasy point with a minutes projection of 20.0. DK value: 4.25
+2. Kelsey Plum $10800 (LAS): Our model has Kelsey Plum projected for 44.97 fantasy point with a minutes projection of 36.0. DK value: 4.16
+3. Allisha Gray $9800 (ATL): Our model has Allisha Gray projected for 39.95 fantasy point with a minutes projection of 35.0. DK value: 4.08
+4. Haley Peters $3900 (CON): Our model has Haley Peters projected for 15.3 fantasy point with a minutes projection of 20.0. DK value: 3.92
+5. Dearica Hamby $10400 (LAS): Our model has Dearica Hamby projected for 39.01 fantasy point with a minutes projection of 33.0. DK value: 3.75

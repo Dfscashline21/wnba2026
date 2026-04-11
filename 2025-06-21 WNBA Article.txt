@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $13900 (MIN): Our model has Napheesa Collier projected for 49.31 fantasy point with a minutes projection of 30.0. DK value: 3.55
+2. Alyssa Thomas $11400 (PHO): Our model has Alyssa Thomas projected for 39.21 fantasy point with a minutes projection of 28.0. DK value: 3.44
+3. Satou Sabally $11200 (PHO): Our model has Satou Sabally projected for 38.4 fantasy point with a minutes projection of 29.0. DK value: 3.43
+4. Kelsey Plum $10500 (LAS): Our model has Kelsey Plum projected for 37.45 fantasy point with a minutes projection of 37.0. DK value: 3.57
+5. Angel Reese $11000 (CHI): Our model has Angel Reese projected for 35.91 fantasy point with a minutes projection of 34.0. DK value: 3.26
+The top 5 DK values are:
+1. Hailey Van Lith $4000 (CHI): Our model has Hailey Van Lith projected for 19.24 fantasy point with a minutes projection of 25.0. DK value: 4.81
+2. Monique Akoa Makani $5600 (PHO): Our model has Monique Akoa Makani projected for 23.83 fantasy point with a minutes projection of 25.0. DK value: 4.25
+3. Alanna Smith $9100 (MIN): Our model has Alanna Smith projected for 34.45 fantasy point with a minutes projection of 31.0. DK value: 3.79
+4. Sarah Ashlee Barker $5400 (LAS): Our model has Sarah Ashlee Barker projected for 20.02 fantasy point with a minutes projection of 28.0. DK value: 3.71
+5. Natisha Hiedeman $6000 (MIN): Our model has Natisha Hiedeman projected for 21.41 fantasy point with a minutes projection of 24.0. DK value: 3.57

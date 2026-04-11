@@ -1,0 +1,29 @@
+# Updated requirements.txt for Supabase integration
+# Add these to your existing requirements.txt
+
+# Supabase Integration
+supabase==2.3.4
+python-supabase==2.3.4
+
+# Existing dependencies (keep these)
+pandas>=1.5.0
+numpy>=1.21.0
+requests>=2.28.0
+psycopg2-binary>=2.9.0
+sqlalchemy>=1.4.0
+python-dotenv>=0.19.0
+streamlit>=1.28.0
+plotly>=5.0.0
+gspread>=5.0.0
+scikit-learn>=1.1.0
+httpx>=0.24.0
+pytz>=2022.1
+
+# Optional: Remove boto3 if no longer using S3
+# boto3>=1.26.0
+
+# Development dependencies
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
+mypy>=1.0.0

@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $13800 (LAV): Our model has A'ja Wilson projected for 47.9 fantasy point with a minutes projection of 33.0. DK value: 3.47
+2. Angel Reese $11400 (CHI): Our model has Angel Reese projected for 36.43 fantasy point with a minutes projection of 29.0. DK value: 3.2
+3. Allisha Gray $10500 (ATL): Our model has Allisha Gray projected for 36.23 fantasy point with a minutes projection of 33.0. DK value: 3.45
+4. Kamilla Cardoso $10200 (CHI): Our model has Kamilla Cardoso projected for 36.18 fantasy point with a minutes projection of 29.0. DK value: 3.55
+5. Emma Meesseman $9200 (NYL): Our model has Emma Meesseman projected for 35.06 fantasy point with a minutes projection of 32.0. DK value: 3.81
+The top 5 DK values are:
+1. Leila Lacan $8400 (CON): Our model has Leila Lacan projected for 32.41 fantasy point with a minutes projection of 34.0. DK value: 3.86
+2. Emma Meesseman $9200 (NYL): Our model has Emma Meesseman projected for 35.06 fantasy point with a minutes projection of 32.0. DK value: 3.81
+3. Te-Hina Paopao $5700 (ATL): Our model has Te-Hina Paopao projected for 21.33 fantasy point with a minutes projection of 30.0. DK value: 3.74
+4. Saniya Rivers $7400 (CON): Our model has Saniya Rivers projected for 27.48 fantasy point with a minutes projection of 28.0. DK value: 3.71
+5. Kamilla Cardoso $10200 (CHI): Our model has Kamilla Cardoso projected for 36.18 fantasy point with a minutes projection of 29.0. DK value: 3.55

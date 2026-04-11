@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $12500 (LAV): Our model has A'ja Wilson projected for 46.79 fantasy point with a minutes projection of 33.0. DK value: 3.74
+2. Angel Reese $12100 (CHI): Our model has Angel Reese projected for 45.46 fantasy point with a minutes projection of 35.0. DK value: 3.76
+3. Breanna Stewart $11700 (NYL): Our model has Breanna Stewart projected for 42.47 fantasy point with a minutes projection of 36.0. DK value: 3.63
+4. Sabrina Ionescu $10700 (NYL): Our model has Sabrina Ionescu projected for 39.93 fantasy point with a minutes projection of 35.0. DK value: 3.73
+5. Ariel Atkins $9600 (CHI): Our model has Ariel Atkins projected for 35.38 fantasy point with a minutes projection of 35.0. DK value: 3.68
+The top 5 DK values are:
+1. Sug Sutton $6300 (WAS): Our model has Sug Sutton projected for 26.33 fantasy point with a minutes projection of 30.0. DK value: 4.18
+2. Sonia Citron $8400 (WAS): Our model has Sonia Citron projected for 34.55 fantasy point with a minutes projection of 36.0. DK value: 4.11
+3. Angel Reese $12100 (CHI): Our model has Angel Reese projected for 45.46 fantasy point with a minutes projection of 35.0. DK value: 3.76
+4. A'ja Wilson $12500 (LAV): Our model has A'ja Wilson projected for 46.79 fantasy point with a minutes projection of 33.0. DK value: 3.74
+5. Sabrina Ionescu $10700 (NYL): Our model has Sabrina Ionescu projected for 39.93 fantasy point with a minutes projection of 35.0. DK value: 3.73

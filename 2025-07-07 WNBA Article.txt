@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Alyssa Thomas $11500 (PHO): Our model has Alyssa Thomas projected for 49.87 fantasy point with a minutes projection of 34.0. DK value: 4.34
+2. Paige Bueckers $11000 (DAL): Our model has Paige Bueckers projected for 42.21 fantasy point with a minutes projection of 36.0. DK value: 3.84
+3. Rhyne Howard $9900 (ATL): Our model has Rhyne Howard projected for 32.29 fantasy point with a minutes projection of 33.0. DK value: 3.26
+4. Aziaha James $8700 (DAL): Our model has Aziaha James projected for 30.63 fantasy point with a minutes projection of 33.0. DK value: 3.52
+5. Allisha Gray $10500 (ATL): Our model has Allisha Gray projected for 30.43 fantasy point with a minutes projection of 32.0. DK value: 2.9
+The top 5 DK values are:
+1. Kathryn Westbeld $5600 (PHO): Our model has Kathryn Westbeld projected for 24.43 fantasy point with a minutes projection of 30.0. DK value: 4.36
+2. Alyssa Thomas $11500 (PHO): Our model has Alyssa Thomas projected for 49.87 fantasy point with a minutes projection of 34.0. DK value: 4.34
+3. JJ Quinerly $6900 (DAL): Our model has JJ Quinerly projected for 29.91 fantasy point with a minutes projection of 32.0. DK value: 4.34
+4. Monique Akoa Makani $6200 (PHO): Our model has Monique Akoa Makani projected for 26.03 fantasy point with a minutes projection of 32.0. DK value: 4.2
+5. Natasha Mack $5500 (PHO): Our model has Natasha Mack projected for 22.62 fantasy point with a minutes projection of 22.0. DK value: 4.11

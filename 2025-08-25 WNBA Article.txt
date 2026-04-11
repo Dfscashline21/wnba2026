@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $14000 (LAV): Our model has A'ja Wilson projected for 52.67 fantasy point with a minutes projection of 33.0. DK value: 3.76
+2. Angel Reese $11000 (CHI): Our model has Angel Reese projected for 36.65 fantasy point with a minutes projection of 30.0. DK value: 3.33
+3. Jackie Young $10200 (LAV): Our model has Jackie Young projected for 35.36 fantasy point with a minutes projection of 30.0. DK value: 3.47
+4. Jonquel Jones $10100 (NYL): Our model has Jonquel Jones projected for 35.29 fantasy point with a minutes projection of 29.0. DK value: 3.49
+5. Kamilla Cardoso $10300 (CHI): Our model has Kamilla Cardoso projected for 34.12 fantasy point with a minutes projection of 31.0. DK value: 3.31
+The top 5 DK values are:
+1. Dana Evans $4700 (LAV): Our model has Dana Evans projected for 19.34 fantasy point with a minutes projection of 22.0. DK value: 4.11
+2. Saniya Rivers $7400 (CON): Our model has Saniya Rivers projected for 28.14 fantasy point with a minutes projection of 30.0. DK value: 3.8
+3. A'ja Wilson $14000 (LAV): Our model has A'ja Wilson projected for 52.67 fantasy point with a minutes projection of 33.0. DK value: 3.76
+4. Bria Hartley $6400 (CON): Our model has Bria Hartley projected for 22.88 fantasy point with a minutes projection of 30.0. DK value: 3.58
+5. Jewell Loyd $7000 (LAV): Our model has Jewell Loyd projected for 24.83 fantasy point with a minutes projection of 27.0. DK value: 3.55

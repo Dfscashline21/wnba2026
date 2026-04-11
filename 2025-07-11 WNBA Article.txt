@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Nneka Ogwumike $10500 (SEA): Our model has Nneka Ogwumike projected for 42.34 fantasy point with a minutes projection of 34.0. DK value: 4.03
+2. Gabby Williams $9800 (SEA): Our model has Gabby Williams projected for 39.69 fantasy point with a minutes projection of 34.0. DK value: 4.05
+3. Aliyah Boston $11000 (IND): Our model has Aliyah Boston projected for 39.22 fantasy point with a minutes projection of 33.35. DK value: 3.57
+4. Caitlin Clark $11200 (IND): Our model has Caitlin Clark projected for 36.14 fantasy point with a minutes projection of 30.75. DK value: 3.23
+5. Skylar Diggins $10300 (SEA): Our model has Skylar Diggins projected for 34.22 fantasy point with a minutes projection of 32.0. DK value: 3.32
+The top 5 DK values are:
+1. Ezi Magbegor $7900 (SEA): Our model has Ezi Magbegor projected for 33.56 fantasy point with a minutes projection of 35.0. DK value: 4.25
+2. Gabby Williams $9800 (SEA): Our model has Gabby Williams projected for 39.69 fantasy point with a minutes projection of 34.0. DK value: 4.05
+3. Nneka Ogwumike $10500 (SEA): Our model has Nneka Ogwumike projected for 42.34 fantasy point with a minutes projection of 34.0. DK value: 4.03
+4. Olivia Nelson-Ododa $7100 (CON): Our model has Olivia Nelson-Ododa projected for 28.49 fantasy point with a minutes projection of 26.13. DK value: 4.01
+5. Tina Charles $8100 (CON): Our model has Tina Charles projected for 31.03 fantasy point with a minutes projection of 30.44. DK value: 3.83

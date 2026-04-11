@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $12500 (MIN): Our model has Napheesa Collier projected for 56.44 fantasy point with a minutes projection of 37.0. DK value: 4.52
+2. Breanna Stewart $11700 (NYL): Our model has Breanna Stewart projected for 40.03 fantasy point with a minutes projection of 31.0. DK value: 3.42
+3. Nneka Ogwumike $9900 (SEA): Our model has Nneka Ogwumike projected for 36.9 fantasy point with a minutes projection of 32.0. DK value: 3.73
+4. Skylar Diggins $9700 (SEA): Our model has Skylar Diggins projected for 36.48 fantasy point with a minutes projection of 34.0. DK value: 3.76
+5. Jonquel Jones $10100 (NYL): Our model has Jonquel Jones projected for 36.44 fantasy point with a minutes projection of 26.0. DK value: 3.61
+The top 5 DK values are:
+1. Kate Martin $3800 (GSV): Our model has Kate Martin projected for 22.86 fantasy point with a minutes projection of 32.0. DK value: 6.01
+2. Napheesa Collier $12500 (MIN): Our model has Napheesa Collier projected for 56.44 fantasy point with a minutes projection of 37.0. DK value: 4.52
+3. Erica Wheeler $7000 (SEA): Our model has Erica Wheeler projected for 30.5 fantasy point with a minutes projection of 29.0. DK value: 4.36
+4. Nyara Sabally $3900 (NYL): Our model has Nyara Sabally projected for 16.47 fantasy point with a minutes projection of 15.0. DK value: 4.22
+5. Alanna Smith $9000 (MIN): Our model has Alanna Smith projected for 36.34 fantasy point with a minutes projection of 32.0. DK value: 4.04

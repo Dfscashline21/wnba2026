@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $11900 (LAV): Our model has A'ja Wilson projected for 49.72 fantasy point with a minutes projection of 34.0. DK value: 4.18
+2. Sabrina Ionescu $11000 (NYL): Our model has Sabrina Ionescu projected for 44.7 fantasy point with a minutes projection of 35.0. DK value: 4.06
+3. Breanna Stewart $11500 (NYL): Our model has Breanna Stewart projected for 43.41 fantasy point with a minutes projection of 35.0. DK value: 3.78
+4. Jackie Young $10700 (LAV): Our model has Jackie Young projected for 33.97 fantasy point with a minutes projection of 30.0. DK value: 3.17
+5. Chelsea Gray $10000 (LAV): Our model has Chelsea Gray projected for 31.63 fantasy point with a minutes projection of 32.0. DK value: 3.16
+The top 5 DK values are:
+1. A'ja Wilson $11900 (LAV): Our model has A'ja Wilson projected for 49.72 fantasy point with a minutes projection of 34.0. DK value: 4.18
+2. Sabrina Ionescu $11000 (NYL): Our model has Sabrina Ionescu projected for 44.7 fantasy point with a minutes projection of 35.0. DK value: 4.06
+3. Breanna Stewart $11500 (NYL): Our model has Breanna Stewart projected for 43.41 fantasy point with a minutes projection of 35.0. DK value: 3.78
+4. Tiffany Hayes $7500 (GSV): Our model has Tiffany Hayes projected for 25.69 fantasy point with a minutes projection of 27.0. DK value: 3.42
+5. Jacy Sheldon $5800 (CON): Our model has Jacy Sheldon projected for 19.71 fantasy point with a minutes projection of 29.0. DK value: 3.4

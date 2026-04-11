@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Breanna Stewart $11400 (NYL): Our model has Breanna Stewart projected for 47.91 fantasy point with a minutes projection of 34.0. DK value: 4.2
+2. Napheesa Collier $11700 (MIN): Our model has Napheesa Collier projected for 46.32 fantasy point with a minutes projection of 34.0. DK value: 3.96
+3. A'ja Wilson $12000 (LAV): Our model has A'ja Wilson projected for 45.88 fantasy point with a minutes projection of 33.0. DK value: 3.82
+4. Alyssa Thomas $11200 (PHO): Our model has Alyssa Thomas projected for 45.12 fantasy point with a minutes projection of 32.0. DK value: 4.03
+5. Dearica Hamby $10500 (LAS): Our model has Dearica Hamby projected for 42.1 fantasy point with a minutes projection of 33.0. DK value: 4.01
+The top 5 DK values are:
+1. JJ Quinerly $4900 (DAL): Our model has JJ Quinerly projected for 28.1 fantasy point with a minutes projection of 30.0. DK value: 5.73
+2. Courtney Williams $9200 (MIN): Our model has Courtney Williams projected for 40.59 fantasy point with a minutes projection of 32.0. DK value: 4.41
+3. Nia Coffey $4000 (ATL): Our model has Nia Coffey projected for 17.31 fantasy point with a minutes projection of 22.0. DK value: 4.33
+4. Breanna Stewart $11400 (NYL): Our model has Breanna Stewart projected for 47.91 fantasy point with a minutes projection of 34.0. DK value: 4.2
+5. Alyssa Thomas $11200 (PHO): Our model has Alyssa Thomas projected for 45.12 fantasy point with a minutes projection of 32.0. DK value: 4.03

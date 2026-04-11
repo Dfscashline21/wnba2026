@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Nneka Ogwumike $10700 (SEA): Our model has Nneka Ogwumike projected for 45.45 fantasy point with a minutes projection of 33.0. DK value: 4.25
+2. Aliyah Boston $11500 (IND): Our model has Aliyah Boston projected for 43.95 fantasy point with a minutes projection of 34.0. DK value: 3.82
+3. Alyssa Thomas $12700 (PHO): Our model has Alyssa Thomas projected for 42.44 fantasy point with a minutes projection of 33.0. DK value: 3.34
+4. Alanna Smith $9600 (MIN): Our model has Alanna Smith projected for 40.87 fantasy point with a minutes projection of 37.0. DK value: 4.26
+5. Paige Bueckers $11700 (DAL): Our model has Paige Bueckers projected for 39.8 fantasy point with a minutes projection of 34.0. DK value: 3.4
+The top 5 DK values are:
+1. Myisha Hines-Allen $6500 (DAL): Our model has Myisha Hines-Allen projected for 28.31 fantasy point with a minutes projection of 21.0. DK value: 4.36
+2. Alanna Smith $9600 (MIN): Our model has Alanna Smith projected for 40.87 fantasy point with a minutes projection of 37.0. DK value: 4.26
+3. Nneka Ogwumike $10700 (SEA): Our model has Nneka Ogwumike projected for 45.45 fantasy point with a minutes projection of 33.0. DK value: 4.25
+4. Kate Martin $5300 (GSV): Our model has Kate Martin projected for 20.91 fantasy point with a minutes projection of 28.0. DK value: 3.95
+5. Laeticia Amihere $4400 (GSV): Our model has Laeticia Amihere projected for 17.35 fantasy point with a minutes projection of 17.0. DK value: 3.94

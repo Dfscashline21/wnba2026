@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $11800 (MIN): Our model has Napheesa Collier projected for 47.04 fantasy point with a minutes projection of 34.0. DK value: 3.99
+2. Courtney Williams $9600 (MIN): Our model has Courtney Williams projected for 36.75 fantasy point with a minutes projection of 28.0. DK value: 3.83
+3. Paige Bueckers $10400 (DAL): Our model has Paige Bueckers projected for 35.87 fantasy point with a minutes projection of 34.0. DK value: 3.45
+4. Tina Charles $10200 (CON): Our model has Tina Charles projected for 35.58 fantasy point with a minutes projection of 31.0. DK value: 3.49
+5. Alanna Smith $8800 (MIN): Our model has Alanna Smith projected for 33.48 fantasy point with a minutes projection of 29.0. DK value: 3.8
+The top 5 DK values are:
+1. Olivia Nelson-Ododa $6200 (CON): Our model has Olivia Nelson-Ododa projected for 26.22 fantasy point with a minutes projection of 25.0. DK value: 4.23
+2. Shakira Austin $7300 (WAS): Our model has Shakira Austin projected for 30.48 fantasy point with a minutes projection of 23.0. DK value: 4.17
+3. Napheesa Collier $11800 (MIN): Our model has Napheesa Collier projected for 47.04 fantasy point with a minutes projection of 34.0. DK value: 3.99
+4. Courtney Williams $9600 (MIN): Our model has Courtney Williams projected for 36.75 fantasy point with a minutes projection of 28.0. DK value: 3.83
+5. Alanna Smith $8800 (MIN): Our model has Alanna Smith projected for 33.48 fantasy point with a minutes projection of 29.0. DK value: 3.8

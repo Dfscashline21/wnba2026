@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. A'ja Wilson $14500 (LAV): Our model has A'ja Wilson projected for 47.27 fantasy point with a minutes projection of 33.0. DK value: 3.26
+2. Marina Mabrey $9700 (CON): Our model has Marina Mabrey projected for 32.49 fantasy point with a minutes projection of 35.0. DK value: 3.35
+3. Paige Bueckers $11500 (DAL): Our model has Paige Bueckers projected for 31.66 fantasy point with a minutes projection of 32.0. DK value: 2.75
+4. Leila Lacan $8700 (CON): Our model has Leila Lacan projected for 31.17 fantasy point with a minutes projection of 31.0. DK value: 3.58
+5. Tina Charles $9000 (CON): Our model has Tina Charles projected for 30.74 fantasy point with a minutes projection of 27.0. DK value: 3.42
+The top 5 DK values are:
+1. Myisha Hines-Allen $6700 (DAL): Our model has Myisha Hines-Allen projected for 25.76 fantasy point with a minutes projection of 23.0. DK value: 3.84
+2. Leila Lacan $8700 (CON): Our model has Leila Lacan projected for 31.17 fantasy point with a minutes projection of 31.0. DK value: 3.58
+3. Aneesah Morrow $8000 (CON): Our model has Aneesah Morrow projected for 28.37 fantasy point with a minutes projection of 25.0. DK value: 3.55
+4. Bria Hartley $6300 (CON): Our model has Bria Hartley projected for 21.63 fantasy point with a minutes projection of 30.0. DK value: 3.43
+5. Tina Charles $9000 (CON): Our model has Tina Charles projected for 30.74 fantasy point with a minutes projection of 27.0. DK value: 3.42

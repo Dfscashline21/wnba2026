@@ -1,0 +1,137 @@
+version: 2
+
+sources:
+  - name: wnba
+    schema: wnba    # this is the schema in your Postgres DB (e.g., nba.draftkings)
+    tables:
+      - name: draftkings
+        description: Raw DraftKings player props data
+      - name: todaysmins
+        description: Raw today's minutes data
+      - name: PLAYER_GAME_LOGS
+        description: Raw player game logs
+      - name: "HISTORICAL_PLAYER_GAME_LOGS"
+        description: Historic player game logs
+      - name: "PLAYERS"
+        description: Raw player info table
+      - name: "Games"
+        description: Game schedule and matchup data
+        columns:
+          - name: "Home_abb"
+            description: Home team abbreviation
+            tests:
+              - not_null
+          - name: "Away_abb"
+            description: Away team abbreviation  
+            tests:
+              - not_null
+      - name: "TEAMS"
+        description: Raw team info table
+      - name: pace
+        description: Raw pace data table
+      - name: wowy
+        description: Raw Wowy data table
+      - name: prizepicks
+        description: Raw PrizePicks player props data
+      - name: underdog
+        description: Raw Underdog player props data
+      - name: betmgm
+        description: Raw BetMGM player props data
+      - name: caesars
+        description: Raw Caesars player props data
+      - name: projmins
+        description: Raw pace data
+      - name: PlayerGameStats
+        description: Raw player game statistics including fantasy points
+        columns:
+          - name: "Game_ID"
+            description: Unique identifier for each game
+            tests:
+              - not_null
+          - name: player_name
+            description: Player's full name
+            tests:
+              - not_null
+          - name: "TeamAbbrev"
+            description: Team abbreviation
+            tests:
+              - not_null
+          - name: "Position"
+            description: Player's position
+            tests:
+              - not_null
+          - name: dkpts
+            description: DraftKings fantasy points
+            tests:
+              - not_null
+          - name: "Min"
+            description: Minutes played
+          - name: "Pts"
+            description: Points scored
+          - name: "Ast"
+            description: Assists
+          - name: "Reb"
+            description: Rebounds
+          - name: "Stl"
+            description: Steals
+          - name: "Blk"
+            description: Blocks
+          - name: "TO"
+            description: Turnovers
+      - name: TeamStats
+        description: Team-level statistics and performance metrics
+        columns:
+          - name: "TeamAbbrev"
+            description: Team abbreviation
+            tests:
+              - not_null
+          - name: "Game_ID"
+            description: Unique identifier for each game
+            tests:
+              - not_null
+          - name: "Game_Date"
+            description: Date of the game
+            tests:
+              - not_null
+          - name: "PACE"
+            description: Team pace (possessions per 40 minutes)
+          - name: "OFF_RTG"
+            description: Offensive rating (points per 100 possessions)
+          - name: "DEF_RTG"
+            description: Defensive rating (points allowed per 100 possessions)
+          - name: "NET_RTG"
+            description: Net rating (offensive rating minus defensive rating)
+          - name: "PIE"
+            description: Player Impact Estimate
+          - name: "POSS"
+            description: Total possessions in the game
+          - name: "FGA"
+            description: Field goal attempts
+          - name: "FGM"
+            description: Field goals made
+          - name: "FG3A"
+            description: Three-point attempts
+          - name: "FG3M"
+            description: Three-pointers made
+          - name: "FTA"
+            description: Free throw attempts
+          - name: "FTM"
+            description: Free throws made
+          - name: "OREB"
+            description: Offensive rebounds
+          - name: "DREB"
+            description: Defensive rebounds
+          - name: "AST"
+            description: Assists
+          - name: "TOV"
+            description: Turnovers
+          - name: "STL"
+            description: Steals
+          - name: "BLK"
+            description: Blocks
+          - name: "PF"
+            description: Personal fouls
+          - name: "PTS"
+            description: Points scored
+      - name: injuries
+        description: Table containing injured players and their teams

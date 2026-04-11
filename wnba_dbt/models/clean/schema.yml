@@ -1,0 +1,94 @@
+version: 2
+
+models:
+  - name: clean_logs
+    description: >
+      Cleaned version of totalgamelogs that standardizes player names across various formats and encodings.
+    columns:
+      - name: player_name
+        description: Standardized player name (accents removed, suffixes normalized, etc.)
+        tests:
+          - not_null
+      - name: game_date
+        description: Date of the game
+        tests:
+          - not_null
+      - name: team_abbreviation
+        description: 3-letter team code
+      - name: pts
+        description: Points scored
+        tests:
+          - assert_reasonable_projections:
+              min_value: 0
+              max_value: 60
+      - name: min
+        description: Minutes played
+        tests:
+          - assert_reasonable_projections:
+              min_value: 0
+              max_value: 48
+
+  - name: clean_players
+    description: >
+      Cleaned version of player metadata with consistent naming conventions and corrected character encodings.
+    columns:
+      - name: Player
+        description: Cleaned first name (e.g. Danté → Dante)
+        tests:
+          - not_null
+      - name: POSITION
+        description: Player's primary position
+
+  - name: clean_draftkings
+    description: >
+      DraftKings prop data table with player names cleaned and matched to standardized identifiers.
+    columns:
+      - name: name
+        description: Cleaned player name used by DraftKings
+        tests:
+          - not_null
+      - name: "Salary"
+        description: "Player salary for DraftKings contests"
+        tests:
+          - assert_positive_salary:
+              column_name: "Salary"
+          - assert_salary_cap_compliance:
+              salary_column: "Salary"
+              cap_limit: 50000
+      - name: "TeamAbbrev"
+        description: Team abbreviation
+        tests:
+          - not_null
+    tests:
+      - assert_teams_present
+
+  - name: medians
+    description: "Player median projections"
+    columns:
+      - name: player_name
+        description: Player name
+        tests:
+          - not_null
+      - name: "TeamAbbrev"
+        description: Team abbreviation
+        tests:
+          - not_null
+      - name: minutes_projection
+        description: Projected minutes
+        tests:
+          - assert_reasonable_projections:
+              min_value: 0
+              max_value: 48
+      - name: dkpts
+        description: Projected DraftKings points
+        tests:
+          - assert_reasonable_projections:
+              min_value: 0
+              max_value: 100
+      - name: medianppm
+        description: Median points per minute
+        tests:
+          - assert_reasonable_projections:
+              min_value: 0
+              max_value: 5
+

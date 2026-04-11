@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Napheesa Collier $12000 (MIN): Our model has Napheesa Collier projected for 45.01 fantasy point with a minutes projection of 37.0. DK value: 3.75
+2. Skylar Diggins $10500 (SEA): Our model has Skylar Diggins projected for 42.78 fantasy point with a minutes projection of 32.0. DK value: 4.07
+3. Satou Sabally $11700 (PHO): Our model has Satou Sabally projected for 40.23 fantasy point with a minutes projection of 32.0. DK value: 3.44
+4. Nneka Ogwumike $10900 (SEA): Our model has Nneka Ogwumike projected for 39.66 fantasy point with a minutes projection of 33.0. DK value: 3.64
+5. Aliyah Boston $10200 (IND): Our model has Aliyah Boston projected for 38.58 fantasy point with a minutes projection of 30.0. DK value: 3.78
+The top 5 DK values are:
+1. Alexa Held $4300 (PHO): Our model has Alexa Held projected for 20.22 fantasy point with a minutes projection of 27.0. DK value: 4.7
+2. Monique Akoa Makani $5300 (PHO): Our model has Monique Akoa Makani projected for 24.91 fantasy point with a minutes projection of 27.0. DK value: 4.7
+3. Sydney Colson $4000 (IND): Our model has Sydney Colson projected for 18.16 fantasy point with a minutes projection of 30.0. DK value: 4.54
+4. JJ Quinerly $3200 (DAL): Our model has JJ Quinerly projected for 13.24 fantasy point with a minutes projection of 10.0. DK value: 4.14
+5. Skylar Diggins $10500 (SEA): Our model has Skylar Diggins projected for 42.78 fantasy point with a minutes projection of 32.0. DK value: 4.07

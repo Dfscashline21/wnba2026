@@ -1,0 +1,12 @@
+For today's slate, the top 5 projected fantasy scorers are:
+1. Satou Sabally $12000 (PHO): Our model has Satou Sabally projected for 46.17 fantasy point with a minutes projection of 32.0. DK value: 3.85
+2. Breanna Stewart $11300 (NYL): Our model has Breanna Stewart projected for 40.58 fantasy point with a minutes projection of 31.0. DK value: 3.59
+3. Jonquel Jones $10100 (NYL): Our model has Jonquel Jones projected for 35.03 fantasy point with a minutes projection of 28.0. DK value: 3.47
+4. Brittney Sykes $10600 (WAS): Our model has Brittney Sykes projected for 33.49 fantasy point with a minutes projection of 32.0. DK value: 3.16
+5. Sabrina Ionescu $9800 (NYL): Our model has Sabrina Ionescu projected for 32.73 fantasy point with a minutes projection of 31.0. DK value: 3.34
+The top 5 DK values are:
+1. Alexa Held $5100 (PHO): Our model has Alexa Held projected for 24.3 fantasy point with a minutes projection of 27.0. DK value: 4.76
+2. Satou Sabally $12000 (PHO): Our model has Satou Sabally projected for 46.17 fantasy point with a minutes projection of 32.0. DK value: 3.85
+3. Breanna Stewart $11300 (NYL): Our model has Breanna Stewart projected for 40.58 fantasy point with a minutes projection of 31.0. DK value: 3.59
+4. Kitija Laksa $5800 (PHO): Our model has Kitija Laksa projected for 20.16 fantasy point with a minutes projection of 27.0. DK value: 3.48
+5. Jonquel Jones $10100 (NYL): Our model has Jonquel Jones projected for 35.03 fantasy point with a minutes projection of 28.0. DK value: 3.47
