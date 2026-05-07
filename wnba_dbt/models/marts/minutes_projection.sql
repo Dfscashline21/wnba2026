@@ -53,14 +53,9 @@ season_averages as (
 ),
 
 injury_adjustments as (
-    -- Get injured players and calculate available minutes
-    select 
-        i.team,
-        count(*) as injured_players_count,
-        -- Estimate total minutes lost due to injuries
-        count(*) * 20 as estimated_minutes_lost
-    from {{ source('wnba', 'injuries') }} i
-    group by i.team
+    -- Stub: no injury table in pipeline yet; left join will produce nulls (no boost applied)
+    select null::text as team, 0 as injured_players_count, 0 as estimated_minutes_lost
+    where false
 ),
 
 base_projection as (

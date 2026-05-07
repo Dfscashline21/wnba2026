@@ -30,7 +30,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   wnba_dbt:
-        # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: table
     staging:
@@ -39,8 +38,14 @@ models:
       +materialized: table
     marts:
       +materialized: table
+      _archived:
+        +enabled: false
     clean:
       +materialized: table
+    history:
+      +materialized: incremental
+      _archived:
+        +enabled: false
 
 # Configure analyses similar to models
 analyses:

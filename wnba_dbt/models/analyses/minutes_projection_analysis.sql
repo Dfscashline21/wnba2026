@@ -79,4 +79,4 @@ select
     confidence_score::text as confidence
 from injury_beneficiaries
 
-order by analysis_type, value desc;
+order by analysis_type, value desc

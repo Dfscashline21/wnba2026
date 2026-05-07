@@ -54,7 +54,7 @@ def test_supabase_import():
         from supabase import create_client, Client
         print("✅ Supabase client import successful")
         
-        from supabase_conn import SupabaseConnection, supabase_conn
+        from db.conn import SupabaseConnection, supabase_conn
         print("✅ Supabase connection module import successful")
         
         from supabase_storage import SupabaseStorage, supabase_storage
@@ -76,7 +76,7 @@ def test_supabase_connection():
     print("\n🔍 Testing Supabase connection...")
     
     try:
-        from supabase_conn import supabase_conn
+        from db.conn from db import conn as supabase_conn
         
         # Test client creation
         client = supabase_conn.get_client()
@@ -127,7 +127,7 @@ def test_sample_data_operations():
     
     try:
         import pandas as pd
-        from supabase_conn import supabase_conn
+        from db.conn from db import conn as supabase_conn
         
         # Create sample data
         sample_data = pd.DataFrame({
@@ -181,7 +181,7 @@ def test_backward_compatibility():
     print("\n🔍 Testing backward compatibility...")
     
     try:
-        from supabase_conn import get_db_connection, get_db_engine
+        from db.conn import get_db_connection, get_db_engine
         
         # Test legacy functions
         client = get_db_connection()

@@ -12,15 +12,15 @@ with overs as (select *
             	when ud."assists"::float <= ast then 1
             end as "Assists Over"
             ,case
-            	when ud."blks_stls"::float is null then 0
-            	when ud."blks_stls"::float > (blk + stl) then 0
-            	when ud."blks_stls"::float < (blk + stl) then 1
-            end as "Blks+Stls Over"
-            ,case
             	when ud."fantasy_points"::float is null then 0
             	when ud."fantasy_points"::float > (pts + (1.2*reb)+(1.5*ast)+ (2*(stl+blk))- (.5*tov)) then 0
             	when ud."fantasy_points"::float <= (pts + (1.2*reb)+(1.5*ast)+ (2*(stl+blk))- (.5*tov)) then 1
             end as "Fantasy Score Over"
+            ,case
+            	when ud."blks_stls"::float is null then 0
+            	when ud."blks_stls"::float > (blk + stl) then 0
+            	when ud."blks_stls"::float < (blk + stl) then 1
+            end as "Blks+Stls Over"
             ,case
             	when ud."free_throws_made"::float is null then 0
             	when ud."free_throws_made"::float > ftm then 0
@@ -70,5 +70,5 @@ with overs as (select *
             ,"blks_stls",sum("Blks+Stls Over")/5 ::float as blk_stlover
             from overs
             where game_number <=5 and overs."name" is not null
-            group by player_name, team_abbreviation,"three_points_made","assists", "fantasy_points","free_throws_made","points","pts_asts","pts_rebs","pts_rebs_asts","rebounds","rebs_asts","blks_stls"
+            group by player_name, team_abbreviation,"three_points_made","assists","fantasy_points","free_throws_made","points","pts_asts","pts_rebs","pts_rebs_asts","rebounds","rebs_asts","blks_stls"
             order by player_name

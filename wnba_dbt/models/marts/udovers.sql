@@ -54,7 +54,7 @@ end)/10000 ::float as raover
 ,"fantasy_points"
 ,sum(case
     when "fantasy_points" is null then null
-    when ppmsim  + (1.25 * rebsim ) + (1.5*apmsim ) + (2 * (bpmsim +  spmsim) ) > "fantasy_points"::float and "fantasy_points" is not null then 1 
+    when ppmsim  + (1.25 * rebsim ) + (1.5*apmsim ) + (2 * (bpmsim +  spmsim) ) > "fantasy_points"::float and "fantasy_points" is not null then 1
     else 0
 end)/10000 ::float as fantover
 ,"three_points_made"::float

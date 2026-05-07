@@ -50,6 +50,14 @@ ehthumbs.db
 Desktop.ini
 
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
+
+# Service account and credential JSON files
+*service-account*.json
+*service_account*.json
+wnba-files*.json
+*credentials*.json
+*-key.json
