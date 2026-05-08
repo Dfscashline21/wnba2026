@@ -37,8 +37,10 @@ def get_adjusted_rates(dksalaries):
     }
 
     rotoinjuries = 'https://www.rotowire.com/wnba/tables/injury-report.php?team=ALL&pos=ALL'
-    
-    rotoinj = requests.get(rotoinjuries).json()
+
+    roto_r = requests.get(rotoinjuries, headers=headers, timeout=60)
+    roto_r.raise_for_status()
+    rotoinj = roto_r.json()
     
     rotoinj = pd.DataFrame(rotoinj)
     
@@ -72,8 +74,20 @@ def get_adjusted_rates(dksalaries):
     minutes = dksalaries[['Name','TeamAbbrev']]
     minutes.to_csv(p / 'mincheck.csv', index=False)
     
-    teams_response = requests.get("https://api.pbpstats.com/get-teams/wnba")
-    teams = teams_response.json()
+    teams_response = requests.get(
+        "https://api.pbpstats.com/get-teams/wnba",
+        headers=headers,
+        timeout=60,
+    )
+    teams_response.raise_for_status()
+    try:
+        teams = teams_response.json()
+    except requests.exceptions.JSONDecodeError as err:
+        snippet = (teams_response.text or "")[:400].replace("\n", " ")
+        raise RuntimeError(
+            f"pbpstats get-teams: expected JSON, got status {teams_response.status_code} "
+            f"body[:400]={snippet!r}"
+        ) from err
     all_teams = teams['teams']
     all_teams[0]['id']
     team_list = []
@@ -95,7 +109,7 @@ def get_adjusted_rates(dksalaries):
                 "SeasonType": "Regular Season",
                 "Type": "Player" # Team stats
             }
-            wowy_response = requests.get(wowy_url, params=wowy_params,headers=headers)
+            wowy_response = requests.get(wowy_url, params=wowy_params, headers=headers, timeout=120)
             wowy = wowy_response.json()
             team_stats = wowy["single_row_table_data"]
             lineup_stats = wowy["multi_row_table_data"]
@@ -168,7 +182,7 @@ def get_adjusted_rates(dksalaries):
             inj = ",".join(edits)
             season = os.getenv('WNBA_SEASON', '2026')
             wowy_url2 = f"https://api.pbpstats.com/get-wowy-stats/wnba?Exactly{total}OffFloor={inj}&Season={season}&SeasonType=Regular%20Season&TeamId={currentteam}&Type=Player"
-            wowy_response = requests.get(wowy_url2,headers=headers)
+            wowy_response = requests.get(wowy_url2, headers=headers, timeout=120)
             wowy = wowy_response.json()
             team_stats = wowy["single_row_table_data"]
             lineup_stats = wowy["multi_row_table_data"]

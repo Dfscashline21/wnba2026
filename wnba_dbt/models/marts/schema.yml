@@ -67,3 +67,23 @@ models:
         description: "Final projected minutes for today's game"
         tests:
           - not_null
+
+  - name: game_model_projections
+    description: "Team-level projected scores per matchup derived from summing median player point projections (medianppm) by team and joining with the Games slate"
+    columns:
+      - name: home_team
+        description: "Home team abbreviation from the Games slate"
+        tests:
+          - not_null
+      - name: away_team
+        description: "Away team abbreviation from the Games slate"
+        tests:
+          - not_null
+      - name: home_projected_score
+        description: "Sum of medianppm for all home team players"
+      - name: away_projected_score
+        description: "Sum of medianppm for all away team players"
+      - name: implied_total
+        description: "Combined projected score of both teams (home + away)"
+      - name: implied_spread
+        description: "Projected point difference (home - away); positive means home favored"

@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: draftkings_player_name_map
+    description: DraftKings display Name -> stats/canonical player_name (matches clean_logs output).
+    columns:
+      - name: draftkings_name
+        tests:
+          - not_null
+          - unique
+      - name: stats_player_name
+        tests:
+          - not_null

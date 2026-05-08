@@ -1,0 +1,16 @@
+wnba_dbt:
+  target: prod
+  outputs:
+    prod:
+      type: postgres
+      host: "{{ env_var('SUPABASE_HOST') }}"
+      user: "{{ env_var('SUPABASE_USER') }}"
+      password: "{{ env_var('SUPABASE_PASSWORD') }}"
+      port: 6543
+      dbname: "{{ env_var('SUPABASE_DBNAME') }}"
+      schema: "{{ env_var('SUPABASE_SCHEMA', 'wnba') }}"
+      threads: 4
+      keepalives_idle: 0
+      connect_timeout: 10
+      retries: 3
+      sslmode: require
