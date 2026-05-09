@@ -87,3 +87,25 @@ models:
         description: "Combined projected score of both teams (home + away)"
       - name: implied_spread
         description: "Projected point difference (home - away); positive means home favored"
+
+  - name: optimizer_slate
+    description: "DraftKings slate joined to median DK points and DK-point stddev for optimizer consumption; DK ID is the downstream key"
+    columns:
+      - name: ID
+        quote: true
+        description: "DraftKings player id"
+        tests:
+          - unique
+          - not_null
+      - name: dkpts
+        tests:
+          - not_null
+      - name: dkstd
+        tests:
+          - not_null
+      - name: ceiling
+        tests:
+          - not_null
+      - name: floor
+        tests:
+          - not_null

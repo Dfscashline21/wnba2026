@@ -61,3 +61,6 @@ Desktop.ini
 wnba-files*.json
 *credentials*.json
 *-key.json
+wnba_dbt/profiles_temp.yml
+wnba_dbt/profile_temp.yml
+wnba_dbt/profiles.yml

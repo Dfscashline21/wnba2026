@@ -2,3 +2,5 @@
 target/
 dbt_packages/
 logs/
+profiles.yml
+profile_temp.yml
