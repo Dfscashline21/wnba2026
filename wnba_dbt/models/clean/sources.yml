@@ -6,6 +6,8 @@ sources:
     tables:
       - name: draftkings
         description: Raw DraftKings player props data
+      - name: players_today
+        description: Raw players_today table written by main.py
       - name: todaysmins
         description: Raw today's minutes data
       - name: PLAYER_GAME_LOGS

@@ -1,5 +1,35 @@
 
-with base_sims as (
+with pp_lines as (
+    select distinct on (
+        "attributes.name",
+        "attributes.odds_type",
+        "Points",
+        "Pts+Rebs",
+        "Pts+Asts",
+        "Pts+Rebs+Asts",
+        "Rebounds",
+        "Assists",
+        "Fantasy Score",
+        "Rebs+Asts",
+        "3-PT Made"
+    )
+    *
+    from {{ source('wnba', 'prizepicks') }}
+    order by
+        "attributes.name",
+        "attributes.odds_type",
+        "Points",
+        "Pts+Rebs",
+        "Pts+Asts",
+        "Pts+Rebs+Asts",
+        "Rebounds",
+        "Assists",
+        "Fantasy Score",
+        "Rebs+Asts",
+        "3-PT Made"
+),
+
+base_sims as (
     {{ player_sims(100, 6800) }}
     union all
     {{ player_sims(200, 2700) }}
@@ -63,7 +93,7 @@ end)/10000 ::float as fantover
     else 0
 end)/10000 ::float as threesover
 from base_sims sims 
-left join {{source('wnba','prizepicks')}} pp on pp."attributes.name" = sims.player_name
+left join pp_lines pp on pp."attributes.name" = sims.player_name
 where pp."attributes.name" is not null 
 group by player_name,"attributes.odds_type","Points","Pts+Rebs", "Pts+Asts", "Pts+Rebs+Asts","Rebs+Asts","Rebounds","Assists","Fantasy Score"
 ,"3-PT Made"

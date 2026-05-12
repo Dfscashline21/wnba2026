@@ -1,6 +1,34 @@
 
 
-with base_sims as (
+with ud_lines as (
+    select distinct on (
+        "name",
+        "points",
+        "pts_rebs",
+        "pts_asts",
+        "pts_rebs_asts",
+        "rebounds",
+        "assists",
+        "fantasy_points",
+        "rebs_asts",
+        "three_points_made"
+    )
+    *
+    from {{ source('wnba', 'underdog') }}
+    order by
+        "name",
+        "points",
+        "pts_rebs",
+        "pts_asts",
+        "pts_rebs_asts",
+        "rebounds",
+        "assists",
+        "fantasy_points",
+        "rebs_asts",
+        "three_points_made"
+),
+
+base_sims as (
     {{ player_sims(100, 6800) }}
     union all
     {{ player_sims(200, 2700) }}
@@ -64,7 +92,7 @@ end)/10000 ::float as fantover
     else 0
 end)/10000 ::float as threesover
 from base_sims sims
-left join {{source('wnba','underdog')}} ud on ud."name" = sims.player_name
+left join ud_lines ud on ud."name" = sims.player_name
             where ud."name" is not null 
             group by player_name,"points"
             ,"pts_rebs","pts_asts"

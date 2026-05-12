@@ -19,17 +19,15 @@ from (select
     -- Priority-based minutes selection: todaysmins.min first, then DraftKings fallback
     coalesce(
         tm."min",              -- First priority: todaysmins.min column
-        dk."min_y"             -- Fallback: DraftKings minutes
+        pt."min_y"             -- Fallback: DraftKings minutes
     ) as min_proj,
-    pl.player_name,pl.playerposition,dk."TeamAbbrev", fgapm,threespm, ftpm,rpm,apm,spm,bpm,ppm,minutes, fgapmstd,threespmstd, ftpmstd,rpmstd,apmstd,spmstd,bpmstd,minutesstd,ppmstd
-, case when dk."TeamAbbrev"= gm."Home_abb" then gm."Away_abb" 
-    when dk."TeamAbbrev" = gmt."Away_abb" then gmt."Home_abb"
-    end as opponent
+    pl.player_name,pl.playerposition,pt."TeamAbbrev", fgapm,threespm, ftpm,rpm,apm,spm,bpm,ppm,minutes, fgapmstd,threespmstd, ftpmstd,rpmstd,apmstd,spmstd,bpmstd,minutesstd,ppmstd
+, pt.opponent as opponent
     ,usage_boost, reb_boost,ast_boost
 from {{ref('playerpermin')}} pl
 left join {{source('wnba','wowy')}} w on pl.player_name = w."Name"
 left join (select * from {{ref('playerstdpermin')}}) std on pl.player_name = std.player_name
-left join {{ref('clean_draftkings')}} dk on pl.player_name = dk.name
+left join {{ref('clean_players_today')}} pt on pl.player_name = pt."Name"
 -- Join todaysmins table for priority minutes
 left join (
     select 
@@ -39,15 +37,13 @@ left join (
     from {{source('wnba','todaysmins')}} 
     where "gamedate"::date in(current_date,current_date+1)
 ) tm on pl.player_name = tm."Name"
-left join (select * from {{source('wnba','Games')}}) gm on dk."TeamAbbrev" = gm."Home_abb"
-left join (select * from {{source('wnba','Games')}}) gmt on dk."TeamAbbrev" = gmt."Away_abb"
-where case when dk."TeamAbbrev" = gm."Home_abb" then gm."Away_abb" 
-    when dk."TeamAbbrev" = gmt."Away_abb" then gmt."Home_abb"
-    end is not null
+where pt.opponent is not null
 ) mai
 left join(select * from {{ref('defpermin')}} ) def on mai.opponent = trim(def.opponent) and mai.playerposition = def.positionone
-left join (select g."Home_abb"
-,coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE",1)  as homepacefactor
+left join (
+select g."Home_abb" as team,
+    g."Away_abb" as opponent,
+    coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE",1)  as homepacefactor
 from {{source('wnba','Games')}} g 
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
@@ -58,8 +54,9 @@ select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
 left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
 )pace on pace.team_abbreviation = g."Away_abb"
 union all
-select g."Away_abb"
-, coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}}  p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE",1) as awaypacefactor
+select g."Away_abb" as team,
+    g."Home_abb" as opponent,
+    coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}}  p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE",1) as homepacefactor
 from {{source('wnba','Games')}} g 
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
@@ -68,7 +65,7 @@ left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('cl
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
 left outer join (select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
-) pace on pace.team_abbreviation = g."Away_abb") pa on pa."Home_abb" = mai."TeamAbbrev"
+) pace on pace.team_abbreviation = g."Away_abb") pa on pa.team = mai."TeamAbbrev" and pa.opponent = mai.opponent
 cross join (select i 
 from generate_series(1,(6800)) i) seq
 union all 
@@ -84,17 +81,15 @@ from (select
     -- Priority-based minutes selection: todaysmins.min first, then DraftKings fallback
     coalesce(
         tm."min",              -- First priority: todaysmins.min column
-        dk."min_y"             -- Fallback: DraftKings minutes
+        pt."min_y"             -- Fallback: DraftKings minutes
     ) as min_proj,
-    pl.player_name,pl.playerposition,dk."TeamAbbrev", fgapm,threespm, ftpm,rpm,apm,spm,bpm,ppm,minutes, fgapmstd,threespmstd, ftpmstd,rpmstd,apmstd,spmstd,bpmstd,minutesstd,ppmstd
-, case when dk."TeamAbbrev" = gm."Home_abb" then gm."Away_abb" 
-    when dk."TeamAbbrev" = gmt."Away_abb" then gmt."Home_abb"
-    end as opponent
+    pl.player_name,pl.playerposition,pt."TeamAbbrev", fgapm,threespm, ftpm,rpm,apm,spm,bpm,ppm,minutes, fgapmstd,threespmstd, ftpmstd,rpmstd,apmstd,spmstd,bpmstd,minutesstd,ppmstd
+, pt.opponent as opponent
     ,usage_boost, reb_boost,ast_boost
 from {{ref('playerpermin')}} pl
 left join {{source('wnba','wowy')}} w on pl.player_name = w."Name"
 left join (select * from {{ref('playerstdpermin')}}) std on pl.player_name = std.player_name
-left join {{ref('clean_draftkings')}} dk on pl.player_name = dk.name
+left join {{ref('clean_players_today')}} pt on pl.player_name = pt."Name"
 -- Join todaysmins table for priority minutes
 left join (
     select 
@@ -104,14 +99,13 @@ left join (
     from {{source('wnba','todaysmins')}} 
     where "gamedate"::date in(current_date,current_date+1)
 ) tm on pl.player_name = tm."Name"
-left join (select * from {{source('wnba','Games')}}) gm on dk."TeamAbbrev"= gm."Home_abb"
-left join (select * from {{source('wnba','Games')}}) gmt on dk."TeamAbbrev" = gmt."Away_abb"
-where case when dk."TeamAbbrev" = gm."Home_abb" then gm."Away_abb" 
-    when dk."TeamAbbrev" = gmt."Away_abb" then gmt."Home_abb"
-    end is not null) mai
+where pt.opponent is not null
+) mai
 left join(select * from {{ref('defpermin')}} ) def on mai.opponent = trim(def.opponent) and mai.playerposition = def.positionone
-left join (select g."Home_abb"
-,coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE",1)  as homepacefactor
+left join (
+select g."Home_abb" as team,
+    g."Away_abb" as opponent,
+    coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE",1)  as homepacefactor
 from {{source('wnba','Games')}} g 
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
@@ -122,8 +116,9 @@ select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
 left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
 )pace on pace.team_abbreviation = g."Away_abb"
 union all
-select g."Away_abb"
-, coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE",1) as awaypacefactor
+select g."Away_abb" as team,
+    g."Home_abb" as opponent,
+    coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE",1) as homepacefactor
 from {{source('wnba','Games')}} g 
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
@@ -132,7 +127,7 @@ left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('cl
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
 left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
-)pace on pace.team_abbreviation = g."Away_abb") pa on pa."Home_abb" = mai."TeamAbbrev"
+)pace on pace.team_abbreviation = g."Away_abb") pa on pa.team = mai."TeamAbbrev" and pa.opponent = mai.opponent
 cross join (select i 
 from generate_series(1,(2700)) i) seq
 union all
@@ -148,17 +143,15 @@ from (select
     -- Priority-based minutes selection: todaysmins.min first, then DraftKings fallback
     coalesce(
         tm."min",              -- First priority: todaysmins.min column
-        dk."min_y"             -- Fallback: DraftKings minutes
+        pt."min_y"             -- Fallback: DraftKings minutes
     ) as min_proj,
-    pl.player_name,pl.playerposition,dk."TeamAbbrev", fgapm,threespm, ftpm,rpm,apm,spm,bpm,ppm,minutes, fgapmstd,threespmstd, ftpmstd,rpmstd,apmstd,spmstd,bpmstd,minutesstd,ppmstd
-, case when dk."TeamAbbrev" = gm."Home_abb" then gm."Away_abb" 
-    when dk."TeamAbbrev" = gmt."Away_abb" then gmt."Home_abb"
-    end as opponent
+    pl.player_name,pl.playerposition,pt."TeamAbbrev", fgapm,threespm, ftpm,rpm,apm,spm,bpm,ppm,minutes, fgapmstd,threespmstd, ftpmstd,rpmstd,apmstd,spmstd,bpmstd,minutesstd,ppmstd
+, pt.opponent as opponent
     ,usage_boost, reb_boost,ast_boost
 from {{ref('playerpermin')}} pl
 left join {{source('wnba','wowy')}} w on pl.player_name = w."Name"
 left join (select * from {{ref('playerstdpermin')}}) std on pl.player_name = std.player_name
-left join {{ref('clean_draftkings')}} dk on pl.player_name = dk.name
+left join {{ref('clean_players_today')}} pt on pl.player_name = pt."Name"
 -- Join todaysmins table for priority minutes
 left join (
     select 
@@ -168,14 +161,13 @@ left join (
     from {{source('wnba','todaysmins')}} 
     where "gamedate"::date in(current_date,current_date+1)
 ) tm on pl.player_name = tm."Name"
-left join (select * from {{source('wnba','Games')}}) gm on dk."TeamAbbrev" = gm."Home_abb"
-left join (select * from {{source('wnba','Games')}}) gmt on dk."TeamAbbrev" = gmt."Away_abb"
-where case when dk."TeamAbbrev" = gm."Home_abb" then gm."Away_abb" 
-    when dk."TeamAbbrev" = gmt."Away_abb" then gmt."Home_abb"
-    end is not null) mai
+where pt.opponent is not null
+) mai
 left join(select * from {{ref('defpermin')}} ) def on mai.opponent = trim(def.opponent) and mai.playerposition = def.positionone
-left join (select g."Home_abb"
-,coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE",1)  as homepacefactor
+left join (
+select g."Home_abb" as team,
+    g."Away_abb" as opponent,
+    coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE",1)  as homepacefactor
 from {{source('wnba','Games')}} g 
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
@@ -183,8 +175,21 @@ left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('cl
 )pac on pac.team_abbreviation = g."Home_abb"
 left join (
 select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
-left outer join (select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
-)pace on pace.team_abbreviation = g."Away_abb") pa on pa."Home_abb" = mai."TeamAbbrev"
+left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
+)pace on pace.team_abbreviation = g."Away_abb"
+union all
+select g."Away_abb" as team,
+    g."Home_abb" as opponent,
+    coalesce(((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE",1) as homepacefactor
+from {{source('wnba','Games')}} g 
+left join (
+select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
+left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
+)pac on pac.team_abbreviation = g."Home_abb"
+left join (
+select tgl.team_abbreviation , p."PACE" from {{source('wnba','pace')}} p
+left outer join(select distinct t.team_name ,t.team_abbreviation  from {{ref('clean_logs')}} t)tgl  on p."TEAM_NAME" = tgl.team_name 
+)pace on pace.team_abbreviation = g."Away_abb") pa on pa.team = mai."TeamAbbrev" and pa.opponent = mai.opponent
 cross join (select i 
 from generate_series(1,(500	)) i) seq
 order by player_name) tot

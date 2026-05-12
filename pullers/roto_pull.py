@@ -5,12 +5,15 @@ Created on Fri Apr 18 15:20:07 2025
 @author: trent
 """
 
-import requests
 import datetime
-import pandas as pd
+import json
+import os
 from datetime import date 
 from pathlib import Path
-import os
+
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 
 
 p = Path(__file__).parent.parent  # project root
@@ -77,4 +80,40 @@ def rotomins():
     minutes.to_csv(p / 'rotomins.csv', index=False)
     
     return minutes 
+
+
+def depth_chart_roster():
+    columns = ["Name", "TeamAbbrev"]
+    url = "https://www.rotowire.com/wnba/wnba-depth-charts/"
+
+    try:
+        response = requests.get(url, timeout=20)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        records = []
+
+        for block in soup.select(".depth-charts__block"):
+            team_alt = block.select_one(".depth-charts__team img")
+            team_abbrev = (team_alt.get("alt") if team_alt else "") or ""
+
+            for player_link in block.select(".depth-charts__pos-list li a"):
+                first_name = player_link.select_one(".hide-until-xs")
+                if first_name:
+                    last_name = player_link.contents[-1]
+                    player_name = f"{first_name.get_text(strip=True)} {str(last_name).strip()}".strip()
+                else:
+                    player_name = player_link.get_text(" ", strip=True)
+
+                if player_name and team_abbrev:
+                    records.append({"Name": player_name, "TeamAbbrev": team_abbrev})
+
+        roster = pd.DataFrame(records, columns=columns).drop_duplicates(ignore_index=True)
+        name_map_raw = os.getenv("NAME_REPLACE")
+        if name_map_raw:
+            roster["Name"] = roster["Name"].replace(json.loads(name_map_raw))
+
+        return roster
+    except Exception as e:
+        print(f"Error in depth_chart_roster: {e}")
+        return pd.DataFrame(columns=columns)
 

@@ -12,7 +12,6 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 import json
-from . import dk_pull as dk
 # import urllib.request as ul
 import httpx
 import pytz
@@ -85,8 +84,6 @@ def get_schedule():
     
  
 def pull_game_logs():    
-    dksalaries = dk.get_dk()
-    
     # historical_logs = []
     # for year in season_id:    
     #         print(year)
@@ -125,25 +122,9 @@ def pull_game_logs():
     wnba_game_log = wnba_game_log.drop('min_sec', axis=1)
     # wnba_game_log = wnba_game_log.drop('team_count', axis=1)
     wnba_game_log  = wnba_game_log.replace(json.loads(os.getenv("NAME_REPLACE")))
-    
-    
-    wnba_game_log['GameKey'] = wnba_game_log.game_date.astype(str) + '-' + wnba_game_log.team_abbreviation.astype(str)
-    gamekey = wnba_game_log[['GameKey','game_date','team_abbreviation']]
-    gamekey = gamekey.drop_duplicates(subset=['GameKey'])
-    gamekey = gamekey.sort_values(by=['team_abbreviation','game_date'], ascending = (True,False))
-    gamekey['gamenumber'] = gamekey.groupby('team_abbreviation').cumcount() +1
-    
-    wnba_mins = pd.merge(wnba_game_log,gamekey[['GameKey','gamenumber']],how='left',on='GameKey')
-
-    last_3 = wnba_mins[wnba_mins['gamenumber'] <=3].fillna(0)
-
-    min_avg = last_3[['player_name','min']].groupby('player_name').mean(numeric_only=True).reset_index()
-     
-    min_start = pd.merge(dksalaries,min_avg, how='left',left_on='Name', right_on ='player_name').fillna(0)    
-  
     playerids = wnba_game_log['player_id'].unique().tolist()
 
-    return wnba_game_log, playerids,min_start
+    return wnba_game_log, playerids
 
 
 

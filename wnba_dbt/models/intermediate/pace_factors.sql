@@ -3,8 +3,9 @@
     alias='pace_factors'
 )}}
 
-select g."Home_abb"
-,((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + 
+select g."Home_abb" as team,
+    g."Away_abb" as opponent,
+    ((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + 
   (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + 
   (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) /pac."PACE"  as homepacefactor
 from {{source('wnba','Games')}} g 
@@ -23,10 +24,11 @@ left join (
                    on p."TEAM_NAME" = tgl.team_name 
 )pace on pace.team_abbreviation = g."Away_abb"
 union all
-select g."Away_abb"
-, ((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + 
+select g."Away_abb" as team,
+    g."Home_abb" as opponent,
+    ((pac."PACE" - (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ) ) + 
    (pace."PACE" -(select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p )) + 
-   (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE" as awaypacefactor
+   (select avg(p."PACE") as league_pace from {{source('wnba','pace')}} p ))/ pace."PACE" as homepacefactor
 from {{source('wnba','Games')}} g 
 left join (
     select tgl.team_abbreviation , p."PACE" 

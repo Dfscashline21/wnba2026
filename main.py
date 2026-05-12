@@ -9,11 +9,35 @@ import time
 from pathlib import Path
 from dotenv import load_dotenv
 import json
+import numpy as np
 import subprocess
 import yaml
 from sqlalchemy import text
 
 ROOT = Path(__file__).parent
+
+
+def add_draftkings_opponent(df: pd.DataFrame, team_map: dict) -> pd.DataFrame:
+    out = df.copy()
+    if out.empty:
+        out["opponent"] = pd.Series(dtype="object")
+        return out
+    gi = out["Game Info"].fillna("").astype(str)
+    parts = gi.str.split("@", n=1, expand=True)
+    away_raw = parts[0].str.strip().str.split(n=1, expand=True)[0].fillna("")
+    home_raw = (
+        parts[1].fillna("").astype(str).str.strip().str.split(n=1, expand=True)[0].fillna("")
+    )
+    away_n = away_raw.replace(team_map)
+    home_n = home_raw.replace(team_map)
+    team = out["TeamAbbrev"]
+    out["opponent"] = np.where(
+        team.to_numpy() == away_n.to_numpy(),
+        home_n.to_numpy(),
+        np.where(team.to_numpy() == home_n.to_numpy(), away_n.to_numpy(), None),
+    )
+    return out
+
 
 def create_dbt_profile():
     try:
@@ -71,10 +95,11 @@ def create_dbt_profile():
 
 def main():
     load_dotenv()
+    dk_team_map = {**{"LAV": "LVA", "PHO": "PHX"}, **json.loads(os.getenv("TEAM_REPLACE"))}
 
     t0 = time.time()
     n = 0
-    TOTAL = 25
+    TOTAL = 28
 
     def step(name):
         nonlocal n
@@ -86,6 +111,7 @@ def main():
     step("Load CSV files")
     projminutes = pd.read_csv(ROOT / 'mincheckproj.csv', encoding='latin-1')
     dksalaries = pd.read_csv(ROOT / 'wnbadk.csv')
+    dksalaries["TeamAbbrev"] = dksalaries["TeamAbbrev"].replace(dk_team_map)
 
     step("roto_pull.rotomins + name replacement")
     try:
@@ -95,7 +121,7 @@ def main():
         projminutes = projminutes.replace(name_map)
     except Exception as e:
         print(f"  WARN rotomins: {e}")
-        minutes = pd.DataFrame()
+        minutes = pd.DataFrame(columns=["Name", "TeamAbbrev", "min"])
 
     step("Underdog props")
     try:
@@ -121,29 +147,73 @@ def main():
         print(f"  WARN BetMGM: {e}")
         betmgm = None
 
-    step("Injury-adjusted rates")
-    rate_boosts, rotoinj = inj.get_adjusted_rates(dksalaries)
-
     step("Schedule")
     teams = nb.get_schedule()
 
-    step("Team list CSV")
-    team_list = pd.read_csv(ROOT / 'wnba_team list.csv')
+    step("Build players_today")
+    schedule_lookup = pd.concat(
+        [
+            teams[['Home_abb', 'Away_abb']].rename(columns={'Home_abb': 'TeamAbbrev', 'Away_abb': 'opponent'}),
+            teams[['Home_abb', 'Away_abb']].rename(columns={'Away_abb': 'TeamAbbrev', 'Home_abb': 'opponent'}),
+        ],
+        ignore_index=True,
+    )
+    schedule_lookup['TeamAbbrev'] = schedule_lookup['TeamAbbrev'].replace(dk_team_map)
+    schedule_lookup['opponent'] = schedule_lookup['opponent'].replace(dk_team_map)
+    schedule_lookup = schedule_lookup.drop_duplicates(subset=['TeamAbbrev'])
+    players_today = rp.depth_chart_roster()
+    players_today['TeamAbbrev'] = players_today['TeamAbbrev'].replace(dk_team_map)
+    minutes_lookup = minutes[['Name', 'min']].drop_duplicates(subset=['Name']).rename(columns={'min': 'min_y'})
+    players_today = pd.merge(players_today, schedule_lookup, how='inner', on='TeamAbbrev')
+    players_today = pd.merge(players_today, minutes_lookup, how='left', on='Name')
+    players_today = players_today[['Name', 'TeamAbbrev', 'opponent', 'min_y']]
+
+    step("Injury-adjusted rates")
+    rate_boosts, rotoinj = inj.get_adjusted_rates(players_today)
 
     step("Game logs + starter projections")
-    wnba_game_log, playerids, min_start = nb.pull_game_logs()
+    wnba_game_log, playerids = nb.pull_game_logs()
     if 'team_count' in wnba_game_log.columns:
         wnba_game_log = wnba_game_log.drop(columns=['team_count'])
-    min_start = min_start.replace(json.loads(os.getenv("NAME_REPLACE")))
-    min_start = pd.merge(min_start, minutes, how='left', on='Name')
-    min_start = min_start[['Position', 'Name + ID', 'Name', 'ID', 'Salary', 'Game Info', 'TeamAbbrev_x', 'AvgPointsPerGame', 'min_x', 'min_y']]
-    min_start.columns = ['Position', 'Name + ID', 'Name', 'ID', 'Salary', 'Game Info', 'TeamAbbrev', 'AvgPointsPerGame', 'min_x', 'min_y']
+    wnba_game_log['GameKey'] = wnba_game_log.game_date.astype(str) + '-' + wnba_game_log.team_abbreviation.astype(str)
+    gamekey = wnba_game_log[['GameKey', 'game_date', 'team_abbreviation']]
+    gamekey = gamekey.drop_duplicates(subset=['GameKey'])
+    gamekey = gamekey.sort_values(by=['team_abbreviation', 'game_date'], ascending=(True, False))
+    gamekey['gamenumber'] = gamekey.groupby('team_abbreviation').cumcount() + 1
+    wnba_mins = pd.merge(wnba_game_log, gamekey[['GameKey', 'gamenumber']], how='left', on='GameKey')
+    last_3 = wnba_mins[wnba_mins['gamenumber'] <= 3].fillna(0)
+    min_avg = last_3[['player_name', 'min']].groupby('player_name').mean(numeric_only=True).reset_index()
+
+    step("DraftKings salaries")
+    dk_columns = ['Position', 'Name + ID', 'Name', 'ID', 'Salary', 'Game Info', 'TeamAbbrev', 'AvgPointsPerGame']
+    draftkings_columns = ['Position', 'Name + ID', 'Name', 'ID', 'Salary', 'Game Info', 'TeamAbbrev', 'AvgPointsPerGame', 'min_x', 'min_y', 'opponent']
+    try:
+        dksalaries = dk.get_dk()
+    except Exception as e:
+        print(f"  WARN DraftKings: {e}")
+        dksalaries = pd.DataFrame(columns=dk_columns)
+    if dksalaries is None:
+        dksalaries = pd.DataFrame(columns=dk_columns)
+    dksalaries = dksalaries.reindex(columns=dk_columns)
+    if not dksalaries.empty:
+        dksalaries = dksalaries.replace(json.loads(os.getenv("NAME_REPLACE")))
+    dksalaries["TeamAbbrev"] = dksalaries["TeamAbbrev"].replace(dk_team_map)
+    draftkings = pd.merge(dksalaries, min_avg, how='left', left_on='Name', right_on='player_name').fillna(0)
+    draftkings = pd.merge(draftkings, minutes, how='left', on='Name')
+    draftkings = draftkings[['Position', 'Name + ID', 'Name', 'ID', 'Salary', 'Game Info', 'TeamAbbrev_x', 'AvgPointsPerGame', 'min_x', 'min_y']]
+    draftkings.columns = ['Position', 'Name + ID', 'Name', 'ID', 'Salary', 'Game Info', 'TeamAbbrev', 'AvgPointsPerGame', 'min_x', 'min_y']
+    draftkings["TeamAbbrev"] = draftkings["TeamAbbrev"].replace(dk_team_map)
+    draftkings = add_draftkings_opponent(draftkings, dk_team_map)
+    draftkings = draftkings.reindex(columns=draftkings_columns)
 
     step("Advanced defensive stats")
     advdef = nb.adv_stats()
 
     step("Player position table")
     player_position_table = nb.player_pos()
+
+    step("Team list CSV")
+    team_list = pd.read_csv(ROOT / 'wnba_team list.csv')
 
     step("Connect to database")
     engine = get_db_engine()
@@ -173,7 +243,7 @@ def main():
         underdog.to_sql(name='underdog', schema='wnba', con=engine, if_exists='replace', index=False)
 
     step("Write draftkings")
-    min_start.to_sql(name='draftkings', schema='wnba', con=engine, if_exists='replace', index=False)
+    draftkings.to_sql(name='draftkings', schema='wnba', con=engine, if_exists='replace', index=False)
 
     step("Write prizepicks")
     if not prizepicks.empty:
@@ -186,6 +256,9 @@ def main():
     step("Write projmins + todaysmins")
     minutes.to_sql(name='projmins', schema='wnba', con=engine, if_exists='replace', index=False)
     projminutes.to_sql(name='todaysmins', schema='wnba', con=engine, if_exists='replace', index=False)
+
+    step("Write players_today")
+    players_today.to_sql(name='players_today', schema='wnba', con=engine, if_exists='replace', index=False)
 
     step("dbt run")
     try:

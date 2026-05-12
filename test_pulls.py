@@ -79,7 +79,6 @@ run("nbastats.adv_stats", nb.adv_stats)
 run("nbastats.player_pos", nb.player_pos)
 
 def _pull_game_logs():
-    # pull_game_logs also calls dk.get_dk internally
     return nb.pull_game_logs()
 run("nbastats.pull_game_logs", _pull_game_logs)
 
@@ -90,7 +89,8 @@ from modeling import injuryadjustments as inj
 
 def _inj():
     dksalaries = pd.read_csv(Path(__file__).parent / 'wnbadk.csv')
-    return inj.get_adjusted_rates(dksalaries)
+    players_today = dksalaries[['Name', 'TeamAbbrev']].drop_duplicates(subset=['Name', 'TeamAbbrev'])
+    return inj.get_adjusted_rates(players_today)
 run("injuryadjustments.get_adjusted_rates", _inj)
 
 

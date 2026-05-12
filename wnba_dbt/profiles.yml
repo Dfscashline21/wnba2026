@@ -3,11 +3,11 @@ wnba_dbt:
   outputs:
     prod:
       type: postgres
-      host: "{{ env_var('SUPABASE_HOST') }}"
-      user: "{{ env_var('SUPABASE_USER') }}"
-      password: "{{ env_var('SUPABASE_PASSWORD') }}"
-      port: 6543
-      dbname: "{{ env_var('SUPABASE_DBNAME') }}"
+      host: "{{ env_var('SUPABASE_HOST', 'db.ztnuuxnqbfiyypedtuaw.supabase.co') }}"
+      user: "{{ env_var('SUPABASE_USER', 'postgres') }}"
+      password: "{{ env_var('SUPABASE_PASSWORD', 'JacksonJ236565!!') }}"
+      port: 5432
+      dbname: "{{ env_var('SUPABASE_DBNAME', 'postgres') }}"
       schema: "{{ env_var('SUPABASE_SCHEMA', 'wnba') }}"
       threads: 4
       keepalives_idle: 0

@@ -21,7 +21,7 @@ teamrep = os.getenv('TEAM_REPLACE')
 
 p = Path(__file__).parent.parent  # project root
 
-def get_adjusted_rates(dksalaries):
+def get_adjusted_rates(players_today):
 
     headers  = {
         'Connection': 'keep-alive',
@@ -71,7 +71,7 @@ def get_adjusted_rates(dksalaries):
     
     
 
-    minutes = dksalaries[['Name','TeamAbbrev']]
+    minutes = players_today[['Name','TeamAbbrev']]
     minutes.to_csv(p / 'mincheck.csv', index=False)
     
     teams_response = requests.get(
@@ -163,7 +163,7 @@ def get_adjusted_rates(dksalaries):
             teamdicts.append(injdict)
     
 
-    teamsinju = list(dksalaries.TeamAbbrev.unique())
+    teamsinju = list(players_today.TeamAbbrev.unique())
     mapping = {"PHO": "PHX"}
     teamsinju = [mapping.get(t, t) for t in teamsinju]
     
@@ -267,6 +267,7 @@ if __name__ == '__main__':
     from dotenv import load_dotenv
     load_dotenv()
     dksalaries = pd.read_csv(Path(__file__).parent.parent / 'wnbadk.csv')
-    rate_boosts, rotoinj = get_adjusted_rates(dksalaries)
+    players_today = dksalaries[['Name', 'TeamAbbrev']].drop_duplicates(subset=['Name', 'TeamAbbrev'])
+    rate_boosts, rotoinj = get_adjusted_rates(players_today)
     print(rate_boosts)
     print(rotoinj)
